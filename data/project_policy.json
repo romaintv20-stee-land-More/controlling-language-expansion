@@ -1,0 +1,10 @@
+{
+  "project_version": "0.1.0-beta",
+  "minecraft_min": "1.7.10",
+  "minecraft_max": "26.2",
+  "locale_policy": "real_minecraft_java_languages_only",
+  "fantasy_locales": "deferred",
+  "official_upstream_priority": true,
+  "upstream_repository": "jaredlll08/Controlling",
+  "release_status": "development"
+}
