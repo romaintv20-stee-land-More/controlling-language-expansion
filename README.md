@@ -16,6 +16,20 @@ Unofficial localization companion for [Controlling](https://github.com/jaredlll0
 
 Early development (`0.1.0-beta` planned). No public release has been published yet.
 
+The initial upstream audit covers all 37 version-numbered Controlling branches from 1.7.10 through 26.2 and currently identifies 7 localization generations with only 15 unique English localization keys across the full audited history.
+
+Current audited generations:
+
+- Generation 01 — `.lang`, 13 keys: 1.7.10, 1.8.9, 1.10.2, 1.12
+- Generation 02 — `.lang`, 9 keys: 1.11
+- Generation 03 — `.json`, 9 keys: 1.13
+- Generation 04 — `.json`, 13 keys: 1.14.2, 1.15, 1.16, 1.17, 1.18, 1.19
+- Generation 05 — `.json`, 12 keys: 1.19.3 through 1.20.4
+- Generation 06 — `.json`, 14 keys: 1.20.5, 1.20.6, 1.21
+- Generation 07 — `.json`, 12 keys: 1.21.1 through 1.21.11, 26.1/26.1.1/26.1.2 and 26.2
+
+The audit is automated; this matrix is expected to evolve if upstream branches change.
+
 ## Compatibility model
 
 This project is versioned by localization generation rather than by every individual Controlling release. Minecraft versions that share the same upstream localization schema can reuse the same translation source.
