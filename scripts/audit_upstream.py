@@ -14,8 +14,10 @@ UPSTREAM_URL = "https://github.com/jaredlll08/Controlling.git"
 VERSION_BRANCH = re.compile(r"^\d+(?:\.\d+){1,2}$")
 CANDIDATES = (
     "common/src/main/resources/assets/controlling/lang/en_us.json",
+    "Common/src/main/resources/assets/controlling/lang/en_us.json",
     "src/main/resources/assets/controlling/lang/en_us.json",
     "src/main/resources/assets/controlling/lang/en_US.json",
+    "src/main/resources/assets/controlling/lang/en_us.lang",
     "src/main/resources/assets/controlling/lang/en_US.lang",
 )
 
