@@ -11,6 +11,21 @@ CANONICAL_ENGLISH = ROOT / "data" / "canonical_english.json"
 LEGACY_BUNDLE = ROOT / "translations" / "legacy_01.json"
 LEGACY_SOURCES = ROOT / "data" / "legacy_locale_sources.json"
 LOCALE_RE = re.compile(r"^[a-z0-9]+(?:_[a-z0-9]+)?$")
+LEGACY_KEYS = {
+    "options.search",
+    "options.showAll",
+    "options.showConflicts",
+    "options.showNone",
+    "options.availableKeys",
+    "options.sort",
+    "options.category",
+    "options.key",
+    "options.sortNone",
+    "options.sortAZ",
+    "options.sortZA",
+    "options.toggleFree",
+    "options.confirmReset",
+}
 
 def load_json_unique(path: Path):
     def hook(pairs):
@@ -33,7 +48,8 @@ def validate_policy():
 
 def validate_legacy_bundle():
     english = load_json_unique(CANONICAL_ENGLISH)
-    allowed = set(english)
+    if not LEGACY_KEYS <= set(english):
+        raise ValueError("Canonical English is missing legacy keys")
     bundle = load_json_unique(LEGACY_BUNDLE)
     if bundle.get("pack") != "legacy_01" or not isinstance(bundle.get("translations"), dict):
         raise ValueError(f"{LEGACY_BUNDLE}: invalid structure")
@@ -43,12 +59,12 @@ def validate_legacy_bundle():
             raise ValueError(f"{LEGACY_BUNDLE}: invalid locale {locale}")
         if not isinstance(data, dict):
             raise ValueError(f"{LEGACY_BUNDLE}: locale {locale} must map to an object")
-        unknown = sorted(set(data) - allowed)
+        unknown = sorted(set(data) - LEGACY_KEYS)
         if unknown:
-            raise ValueError(f"{LEGACY_BUNDLE}: {locale} unknown keys: {', '.join(unknown)}")
-        missing = sorted(allowed - set(data))
+            raise ValueError(f"{LEGACY_BUNDLE}: {locale} non-legacy keys: {', '.join(unknown)}")
+        missing = sorted(LEGACY_KEYS - set(data))
         if missing:
-            raise ValueError(f"{LEGACY_BUNDLE}: {locale} missing canonical keys: {', '.join(missing)}")
+            raise ValueError(f"{LEGACY_BUNDLE}: {locale} missing legacy keys: {', '.join(missing)}")
         for key, value in data.items():
             if not isinstance(value, str) or not value.strip():
                 raise ValueError(f"{LEGACY_BUNDLE}: {locale}/{key} invalid translation")
