@@ -1,0 +1,22 @@
+{
+  "aliases": {
+    "de_at": {"source": "de_de", "status": "regional_base"},
+    "de_alg": {"source": "de_de", "status": "regional_base"},
+    "ksh_de": {"source": "de_de", "status": "regional_base"},
+    "swg_de": {"source": "de_de", "status": "regional_base"},
+    "es_ar": {"source": "es_es", "status": "regional_base"},
+    "es_mx": {"source": "es_es", "status": "regional_base"},
+    "es_uy": {"source": "es_es", "status": "regional_base"},
+    "es_ve": {"source": "es_es", "status": "regional_base"},
+    "fr_ca": {"source": "fr_fr", "status": "regional_base"},
+    "val_es": {"source": "ca_es", "status": "regional_base"},
+    "en_au": {"source": "en_us", "status": "identical_english_skip"},
+    "en_gb": {"source": "en_us", "status": "identical_english_skip"},
+    "en_nz": {"source": "en_us", "status": "identical_english_skip"}
+  },
+  "untranslated_low_confidence": ["gv_im", "jbo_en", "qya_aa", "se_no", "tlh_aa", "tzl_tzl"],
+  "notes": {
+    "regional_base": "Temporary first-pack reuse of a closely related base locale; intended for later native review.",
+    "identical_english_skip": "No generated fallback is needed because the desired text is identical to en_us."
+  }
+}
