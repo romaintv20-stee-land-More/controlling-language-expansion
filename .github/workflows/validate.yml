@@ -24,6 +24,9 @@ jobs:
       - name: Audit Controlling upstream
         run: python scripts/audit_upstream.py
 
+      - name: Audit legacy pack
+        run: python scripts/audit_legacy_pack.py
+
       - name: Audit modern official locales
         run: python scripts/audit_modern_locales.py
 
@@ -33,4 +36,5 @@ jobs:
           name: controlling-audits
           path: |
             data/generated/upstream_audit.json
+            data/generated/legacy_pack_audit.json
             data/generated/modern_locale_audit.json
