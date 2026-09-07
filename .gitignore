@@ -1,0 +1,15 @@
+# Generated files
+build/
+dist/
+data/generated/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
