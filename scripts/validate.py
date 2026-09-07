@@ -74,8 +74,8 @@ def validate_legacy_bundle():
 def validate_sources():
     data = load_json_unique(LEGACY_SOURCES)
     aliases = data.get("aliases", {})
-    uncovered = data.get("untranslated_low_confidence", [])
-    if not isinstance(aliases, dict) or not isinstance(uncovered, list):
+    excluded = data.get("intentionally_excluded_special_locales", [])
+    if not isinstance(aliases, dict) or not isinstance(excluded, list):
         raise ValueError(f"{LEGACY_SOURCES}: invalid structure")
     for locale, info in aliases.items():
         if not LOCALE_RE.fullmatch(locale) or not isinstance(info, dict):
@@ -83,15 +83,18 @@ def validate_sources():
         source = info.get("source")
         if not isinstance(source, str) or not LOCALE_RE.fullmatch(source) or source == locale:
             raise ValueError(f"{LEGACY_SOURCES}: invalid source for {locale}")
-    if len(uncovered) != len(set(uncovered)):
-        raise ValueError(f"{LEGACY_SOURCES}: duplicate pending locale")
-    return len(aliases), len(uncovered)
+    if len(excluded) != len(set(excluded)):
+        raise ValueError(f"{LEGACY_SOURCES}: duplicate excluded locale")
+    for locale in excluded:
+        if not isinstance(locale, str) or not LOCALE_RE.fullmatch(locale):
+            raise ValueError(f"{LEGACY_SOURCES}: invalid excluded locale {locale!r}")
+    return len(aliases), len(excluded)
 
 def main() -> int:
     validate_policy()
     locales, entries = validate_legacy_bundle()
-    aliases, pending = validate_sources()
-    print(f"Validation OK: {locales} canonical legacy locales, {entries} entries, {aliases} aliases/no-op variants, {pending} low-confidence locales pending")
+    aliases, excluded = validate_sources()
+    print(f"Validation OK: {locales} canonical legacy locales, {entries} entries, {aliases} aliases/no-op variants, {excluded} intentionally excluded special locales")
     return 0
 
 if __name__ == "__main__":
