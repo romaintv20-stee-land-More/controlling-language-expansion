@@ -24,8 +24,13 @@ jobs:
       - name: Audit Controlling upstream
         run: python scripts/audit_upstream.py
 
-      - name: Upload upstream audit
+      - name: Audit modern official locales
+        run: python scripts/audit_modern_locales.py
+
+      - name: Upload audits
         uses: actions/upload-artifact@v4
         with:
-          name: controlling-upstream-audit
-          path: data/generated/upstream_audit.json
+          name: controlling-audits
+          path: |
+            data/generated/upstream_audit.json
+            data/generated/modern_locale_audit.json
