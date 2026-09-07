@@ -14,9 +14,10 @@
     "en_gb": {"source": "en_us", "status": "identical_english_skip"},
     "en_nz": {"source": "en_us", "status": "identical_english_skip"}
   },
-  "untranslated_low_confidence": ["gv_im", "jbo_en", "qya_aa", "se_no", "tlh_aa", "tzl_tzl"],
+  "intentionally_excluded_special_locales": ["gv_im", "jbo_en", "qya_aa", "se_no", "tlh_aa", "tzl_tzl"],
   "notes": {
     "regional_base": "Temporary first-pack reuse of a closely related base locale; intended for later native review.",
-    "identical_english_skip": "No generated fallback is needed because the desired text is identical to en_us."
+    "identical_english_skip": "No generated fallback is needed because the desired text is identical to en_us.",
+    "intentionally_excluded_special_locales": "Excluded because reliable Controlling translations could not be verified and the expected practical value is extremely low; the project does not guess translations for these locales."
   }
 }
