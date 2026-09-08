@@ -188,7 +188,7 @@ authors="Steel-and-More"
 modId="{MOD_ID}"
 version="{VERSION}"
 displayName="Controlling Language Expansion"
-description='''\nUnofficial localization expansion for Controlling.\n'''
+description="Unofficial localization expansion for Controlling."
 
 [[dependencies.{MOD_ID}]]
 modId="forge"
