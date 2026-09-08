@@ -42,6 +42,9 @@ jobs:
       - name: Generate all modern builds
         run: python scripts/generate_modern_pack.py
 
+      - name: Generate grouped modern builds
+        run: python scripts/generate_grouped_modern.py
+
       - name: Upload audits and generated builds
         uses: actions/upload-artifact@v4
         with:
@@ -53,3 +56,4 @@ jobs:
             data/generated/modern_pack_audit.json
             build/legacy/
             build/modern/
+            build/grouped-modern/
