@@ -39,8 +39,8 @@ jobs:
       - name: Audit modern official locales
         run: python scripts/audit_modern_locales.py
 
-      - name: Generate Minecraft 1.13.2 build
-        run: python scripts/generate_modern_1_13.py
+      - name: Generate all modern builds
+        run: python scripts/generate_modern_pack.py
 
       - name: Upload audits and generated builds
         uses: actions/upload-artifact@v4
@@ -50,6 +50,6 @@ jobs:
             data/generated/upstream_audit.json
             data/generated/legacy_pack_audit.json
             data/generated/modern_locale_audit.json
-            data/generated/modern_1_13_audit.json
+            data/generated/modern_pack_audit.json
             build/legacy/
             build/modern/
