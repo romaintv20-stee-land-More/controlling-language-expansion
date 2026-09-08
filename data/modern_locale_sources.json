@@ -1,5 +1,8 @@
 {
   "aliases": {
+    "_all": {"source": "en_us", "status": "technical_metadata_skip"},
+    "_list": {"source": "en_us", "status": "technical_metadata_skip"},
+    "deprecated": {"source": "en_us", "status": "technical_metadata_skip"},
     "bar": {"source": "de_de", "status": "regional_base"},
     "brb": {"source": "nl_nl", "status": "regional_base"},
     "bs_ba": {"source": "hr_hr", "status": "regional_base"},
@@ -29,18 +32,35 @@
     "sr_cs": {"source": "sr_sp", "status": "script_base"},
     "tl_ph": {"source": "fil_ph", "status": "regional_base"},
     "yi_de": {"source": "de_de", "status": "regional_base"},
-    "zlm_arab": {"source": "ms_my", "status": "script_base"}
+    "zlm_arab": {"source": "ms_my", "status": "script_base"},
+    "cv_cu": {"source": "tt_ru", "status": "related_language_base"},
+    "fr_ch": {"source": "fr_fr", "status": "regional_base"},
+    "go_fr": {"source": "fr_fr", "status": "regional_base"},
+    "hal_ua": {"source": "uk_ua", "status": "regional_base"},
+    "qcb_es": {"source": "es_es", "status": "regional_base"},
+    "qid": {"source": "id_id", "status": "historical_base"},
+    "sah_sah": {"source": "tt_ru", "status": "related_language_base"},
+    "scn": {"source": "it_it", "status": "regional_base"},
+    "vro": {"source": "et_ee", "status": "regional_base"},
+    "zh_hk": {"source": "zh_tw", "status": "regional_base"}
   },
   "deferred_low_coverage_real_locales": {
     "moh_ca": "Vanilla Minecraft itself contains only a very small Mohawk vocabulary in the audited generation; do not invent interface terminology without a reliable source.",
     "nuk": "Vanilla Minecraft has only partial Nuu-chah-nulth coverage and no reliable equivalents for most Controlling interface concepts.",
-    "oj_ca": "Vanilla Minecraft has partial Ojibwe coverage, but the required Controlling interface terminology could not be verified reliably."
+    "oj_ca": "Vanilla Minecraft has partial Ojibwe coverage, but the required Controlling interface terminology could not be verified reliably.",
+    "got_de": "Gothic is a historical Minecraft locale with substantial untranslated vocabulary; reliable Controlling interface terminology could not be verified.",
+    "nah": "Nahuatl is a real Minecraft locale, but the required Controlling interface terminology could not be verified reliably enough for publication.",
+    "pls": "Ngiiwa is a low-resource Minecraft locale; Minecraft provides useful UI vocabulary but not enough verified terminology for Controlling's conflict/key-binding concepts.",
+    "tzo_mx": "Tzotzil is a low-resource Minecraft locale; reliable Controlling interface terminology could not be verified.",
+    "vp_vl": "Viossa is a constructed Minecraft locale with community-specific vocabulary; no reliable Controlling terminology source was verified."
   },
   "notes": {
     "regional_base": "Temporary reuse of a closely related regional language for unreviewed UI terminology.",
+    "related_language_base": "Temporary reuse of a related language where no direct reviewed Controlling translation exists; intended for later native review.",
     "code_rename": "Same language under a newer Minecraft locale identifier.",
     "script_base": "Temporary reuse of the same or closely related language in another script.",
     "historical_base": "Temporary reuse of the modern form of the same language.",
+    "technical_metadata_skip": "Minecraft-assets repository metadata JSON, not an in-game language locale.",
     "deferred_low_coverage_real_locales": "Real Minecraft locales retained in the audit but not shipped until terminology can be verified; English remains Minecraft's natural fallback instead of publishing invented translations."
   }
 }
