@@ -103,6 +103,91 @@
       "options.sortKeyZA": "Bọ́tìnì Z->A",
       "options.toggleFree": "Yí àwọn bọ́tìnì òfìfo padà",
       "options.confirmReset": "Jẹ́rìí?"
-    }
+    },
+    "lo_la": {
+      "options.search": "ຄົ້ນຫາ",
+      "options.showAll": "ສະແດງທັງໝົດ",
+      "options.showConflicts": "ສະແດງການຂັດແຍ້ງ",
+      "options.showNone": "ສະແດງປຸ່ມທີ່ບໍ່ໄດ້ກຳນົດ",
+      "options.availableKeys": "ປຸ່ມທີ່ວ່າງ",
+      "options.sort": "ຈັດລຽງ",
+      "options.category": "ໝວດໝູ່",
+      "options.key": "ປຸ່ມ",
+      "options.sortNone": "ບໍ່ມີ",
+      "options.sortAZ": "A->Z",
+      "options.sortZA": "Z->A",
+      "options.sortKeyAZ": "ປຸ່ມ A->Z",
+      "options.sortKeyZA": "ປຸ່ມ Z->A",
+      "options.toggleFree": "ສະຫຼັບປຸ່ມວ່າງ",
+      "options.confirmReset": "ຢືນຢັນບໍ?"
+    },
+    "uz_uz": {
+      "options.search": "Qidirish",
+      "options.showAll": "Barchasini ko‘rsatish",
+      "options.showConflicts": "To‘qnashuvlarni ko‘rsatish",
+      "options.showNone": "Biriktirilmaganlarni ko‘rsatish",
+      "options.availableKeys": "Mavjud tugmalar",
+      "options.sort": "Saralash",
+      "options.category": "Toifa",
+      "options.key": "Tugma",
+      "options.sortNone": "Yo‘q",
+      "options.sortAZ": "A->Z",
+      "options.sortZA": "Z->A",
+      "options.sortKeyAZ": "Tugma A->Z",
+      "options.sortKeyZA": "Tugma Z->A",
+      "options.toggleFree": "Bo‘sh tugmalarni almashtirish",
+      "options.confirmReset": "Tasdiqlaysizmi?"
+    },
+    "tok": {
+      "options.search": "o alasa",
+      "options.showAll": "o pana e ale lon lukin",
+      "options.showConflicts": "o pana e utala lon lukin",
+      "options.showNone": "o pana e nena pi kulupu ala lon lukin",
+      "options.availableKeys": "nena pi ken kepeken",
+      "options.sort": "o lawa",
+      "options.category": "kulupu",
+      "options.key": "nena",
+      "options.sortNone": "ala",
+      "options.sortAZ": "A->Z",
+      "options.sortZA": "Z->A",
+      "options.sortKeyAZ": "nena A->Z",
+      "options.sortKeyZA": "nena Z->A",
+      "options.toggleFree": "o ante e nena pi ken kepeken",
+      "options.confirmReset": "sina wile anu seme?"
+    },
+    "nl_nl": {
+      "options.search": "Zoeken",
+      "options.sortKeyAZ": "Toets A->Z",
+      "options.sortKeyZA": "Toets Z->A"
+    },
+    "en_ud": {
+      "options.sortKeyAZ": "ʎǝ⋊ A->Z",
+      "options.sortKeyZA": "ʎǝ⋊ Z->A",
+      "options.toggleFree": "ǝǝɹℲ ǝlƃƃo⊥"
+    },
+    "ja_jp": {
+      "options.sortNone": "なし",
+      "options.sortAZ": "A->Z",
+      "options.sortZA": "Z->A",
+      "options.sortKeyAZ": "キー A->Z",
+      "options.sortKeyZA": "キー Z->A"
+    },
+    "de_de": {"options.sortKeyAZ": "Taste A->Z", "options.sortKeyZA": "Taste Z->A"},
+    "en_ca": {"options.sortKeyAZ": "Key A->Z", "options.sortKeyZA": "Key Z->A"},
+    "en_pt": {"options.sortKeyAZ": "Key A->Z", "options.sortKeyZA": "Key Z->A"},
+    "es_es": {"options.sortKeyAZ": "Tecla A->Z", "options.sortKeyZA": "Tecla Z->A"},
+    "fi_fi": {"options.sortKeyAZ": "Näppäin A->Z", "options.sortKeyZA": "Näppäin Z->A"},
+    "fr_fr": {"options.sortKeyAZ": "Touche A->Z", "options.sortKeyZA": "Touche Z->A"},
+    "hi_in": {"options.sortKeyAZ": "कुंजी A->Z", "options.sortKeyZA": "कुंजी Z->A"},
+    "it_it": {"options.sortKeyAZ": "Tasto A->Z", "options.sortKeyZA": "Tasto Z->A"},
+    "kk_kz": {"options.sortKeyAZ": "Перне A->Z", "options.sortKeyZA": "Перне Z->A"},
+    "ko_kr": {"options.sortKeyAZ": "키 A->Z", "options.sortKeyZA": "키 Z->A"},
+    "lzh": {"options.sortKeyAZ": "鍵 A->Z", "options.sortKeyZA": "鍵 Z->A"},
+    "pt_br": {"options.sortKeyAZ": "Tecla A->Z", "options.sortKeyZA": "Tecla Z->A"},
+    "ru_ru": {"options.sortKeyAZ": "Клавиша A->Z", "options.sortKeyZA": "Клавиша Z->A"},
+    "ta_in": {"options.sortKeyAZ": "விசை A->Z", "options.sortKeyZA": "விசை Z->A"},
+    "tr_tr": {"options.sortKeyAZ": "Tuş A->Z", "options.sortKeyZA": "Tuş Z->A"},
+    "uk_ua": {"options.sortKeyAZ": "Клавіша A->Z", "options.sortKeyZA": "Клавіша Z->A"},
+    "zh_tw": {"options.sortKeyAZ": "按鍵 A->Z", "options.sortKeyZA": "按鍵 Z->A"}
   }
 }
