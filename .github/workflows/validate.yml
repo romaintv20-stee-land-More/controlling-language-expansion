@@ -18,6 +18,12 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+
       - name: Validate repository
         run: python scripts/validate.py
 
@@ -33,12 +39,17 @@ jobs:
       - name: Audit modern official locales
         run: python scripts/audit_modern_locales.py
 
-      - name: Upload audits and legacy payloads
+      - name: Generate Minecraft 1.13.2 build
+        run: python scripts/generate_modern_1_13.py
+
+      - name: Upload audits and generated builds
         uses: actions/upload-artifact@v4
         with:
-          name: controlling-audits-and-legacy-pack
+          name: controlling-audits-and-builds
           path: |
             data/generated/upstream_audit.json
             data/generated/legacy_pack_audit.json
             data/generated/modern_locale_audit.json
+            data/generated/modern_1_13_audit.json
             build/legacy/
+            build/modern/
