@@ -1,58 +1,115 @@
 # Controlling Language Expansion
 
-Unofficial localization companion for [Controlling](https://github.com/jaredlll08/Controlling), focused on broad language coverage and historical Minecraft compatibility.
+**Controlling Language Expansion** is an unofficial localization companion for **Controlling** by Jaredlll08.
 
-## Goals
+Its goal is to extend Controlling's language support to as many languages available in Minecraft Java Edition as possible, across both legacy and modern Minecraft versions.
 
-- Cover Controlling from Minecraft 1.7.10 through current releases where technically feasible.
-- Support nearly every real language available in Minecraft Java Edition for each supported Minecraft generation.
-- Preserve official Controlling translations as the first priority.
-- Provide only missing localization keys whenever an official translation already exists.
-- Reuse translations across Minecraft versions when the upstream English keys and meanings are identical.
-- Support both legacy `.lang` files and modern `.json` language files.
-- Audit upstream changes automatically so obsolete fallbacks can be removed when Controlling gains official translations.
+The original **Controlling** mod is still required. This project only provides additional localization resources and does not replace or modify Controlling's gameplay features.
 
-## Project status
+## Features
 
-Early development (`0.1.0-beta` planned). No public release has been published yet.
+- Adds translations for languages missing from Controlling.
+- Completes partially translated languages when some Controlling strings are missing.
+- Always gives priority to Controlling's official translations.
+- Supports languages according to their actual availability in each Minecraft version.
+- Includes selected special Minecraft languages when relevant.
+- Lightweight and client-side.
+- Supports both legacy `.lang` files and modern `.json` localization files.
+- Provides version-specific builds covering multiple generations of Minecraft and Controlling.
+- Reuses translations between versions when the upstream English meaning is identical.
+- Avoids inventing unsupported localization keys or fake language support.
 
-The initial upstream audit covers all 37 version-numbered Controlling branches from 1.7.10 through 26.2 and currently identifies 7 localization generations with only 15 unique English localization keys across the full audited history.
+## Current Version Support
 
-Current audited generations:
+The project now provides release coverage from **Minecraft 1.7.10 through Minecraft 26.2**, using individual or grouped builds where the localization payload is compatible.
 
-- Generation 01 — `.lang`, 13 keys: 1.7.10, 1.8.9, 1.10.2, 1.12
-- Generation 02 — `.lang`, 9 keys: 1.11
-- Generation 03 — `.json`, 9 keys: 1.13
-- Generation 04 — `.json`, 13 keys: 1.14.2, 1.15, 1.16, 1.17, 1.18, 1.19
-- Generation 05 — `.json`, 12 keys: 1.19.3 through 1.20.4
-- Generation 06 — `.json`, 14 keys: 1.20.5, 1.20.6, 1.21
-- Generation 07 — `.json`, 12 keys: 1.21.1 through 1.21.11, 26.1/26.1.1/26.1.2 and 26.2
+Current release coverage:
 
-The audit is automated; this matrix is expected to evolve if upstream branches change.
+- Minecraft 1.7.10
+- Minecraft 1.8.9
+- Minecraft 1.10.2
+- Minecraft 1.11.2
+- Minecraft 1.12.2
+- Minecraft 1.13.2-1.14.2
+- Minecraft 1.15.2
+- Minecraft 1.16.5
+- Minecraft 1.17.1
+- Minecraft 1.18.2
+- Minecraft 1.19.2
+- Minecraft 1.19.3
+- Minecraft 1.19.4
+- Minecraft 1.20-1.20.4
+- Minecraft 1.20.5-1.21.8
+- Minecraft 1.21.9-26.2
 
-## Compatibility model
+Older branches use dedicated compatibility builds when Minecraft, Forge, or localization formats differ significantly. Newer releases are grouped only when the same localization payload can be safely shared across versions.
 
-This project is versioned by localization generation rather than by every individual Controlling release. Minecraft versions that share the same upstream localization schema can reuse the same translation source.
+Minecraft 1.19 and 1.19.1 are not currently advertised by the project and may be reviewed separately for compatibility with the existing 1.19-generation build.
 
-The exact compatibility matrix is generated from audits of the official Controlling repository.
+## Translation Policy
 
-## Upstream priority
+Controlling's own translations always have priority.
 
-For every supported Minecraft version and locale:
+If Controlling already provides a complete translation for a language, Controlling Language Expansion does not unnecessarily replace it.
 
-1. Controlling's own official translation is authoritative.
-2. Controlling Language Expansion fills only missing keys.
-3. When Controlling later adds an official key, the corresponding fallback should be removed from this project.
+If a translation is incomplete or missing, this project provides the missing strings whenever possible.
 
-## Attribution
+The project avoids inventing unsupported localization keys and only targets languages that actually exist in the corresponding Minecraft Java Edition version.
 
-Controlling is created by Jaredlll08 and contributors and is licensed under the MIT License.
+For modern versions, some very low-resource or special community languages may intentionally remain on English fallback when a reliable translation cannot be produced with sufficient confidence.
 
-- Upstream project: https://github.com/jaredlll08/Controlling
-- CurseForge: https://www.curseforge.com/minecraft/mc-mods/controlling
+## Translation Method
 
-This project is unofficial and is not affiliated with or endorsed by the Controlling developers.
+Some missing translations in Controlling Language Expansion are generated or assisted by AI, especially for languages where no reliable existing Controlling translation is available.
+
+Existing official translations from Controlling always have priority and are not replaced unnecessarily.
+
+AI-assisted translations are treated as best-effort localization and may be improved over time based on community feedback and corrections from native speakers.
+
+## Compatibility
+
+Each release is built for a specific Minecraft version or a compatible group of versions depending on Controlling's localization format, Minecraft resource-pack format, loader support, Java version, and upstream changes.
+
+Older versions use Minecraft's legacy `.lang` localization format, while newer versions use `.json` language files.
+
+The addon is designed to remain lightweight and client-side only.
+
+## Requirements
+
+You must install the original **Controlling** mod for your Minecraft version.
+
+Controlling Language Expansion does not include Controlling itself.
+
+Some newer Controlling versions may also require dependencies used by the original mod. Always follow the dependency requirements listed on the Controlling project page for your Minecraft version.
+
+## Installation
+
+1. Install the correct mod loader for your Minecraft version.
+2. Install **Controlling**.
+3. Download the matching version of **Controlling Language Expansion**.
+4. Place both mods in your Minecraft `mods` folder.
+5. Launch the game and select your language normally from Minecraft's language settings.
+
+No additional configuration is required.
+
+## Upstream Audit
+
+The project audits the version-numbered Controlling branches from Minecraft 1.7.10 through 26.2 and tracks localization changes across seven historical generations.
+
+Across the audited history, Controlling uses only 15 unique English localization keys relevant to this expansion project. Official upstream translations remain authoritative for every version and locale.
+
+## Credits
+
+**Controlling** is created by **Jaredlll08** and contributors.
+
+This is an independent, unofficial localization project and is not affiliated with or endorsed by the original Controlling developer.
+
+- Original Controlling project: https://www.curseforge.com/minecraft/mc-mods/controlling
+- Upstream source: https://github.com/jaredlll08/Controlling
+- Controlling Language Expansion source: https://github.com/romaintv20-stee-land-More/controlling-language-expansion
 
 ## License
 
-Project code and original localization work in this repository are released under the MIT License. Upstream material remains subject to its original copyright and license.
+Controlling Language Expansion is released under the **MIT License**.
+
+Project code and original localization work are released under the MIT License. Any upstream material remains subject to its original copyright and license.
