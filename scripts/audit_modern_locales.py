@@ -7,7 +7,7 @@ import tempfile
 from pathlib import Path
 
 UPSTREAM = "https://github.com/jaredlll08/Controlling.git"
-BRANCH = "26.2"
+BRANCH = "26.3"
 LANG_DIR = "common/src/main/resources/assets/controlling/lang"
 ENGLISH = f"{LANG_DIR}/en_us.json"
 OUTPUT = Path("data/generated/modern_locale_audit.json")
