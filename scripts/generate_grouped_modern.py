@@ -20,7 +20,7 @@ GROUPS = [
     ('1.19.4', ['1.19.4'], {'pack_format':13}),
     ('1.20-1.20.4', ['1.20','1.20.1','1.20.2','1.20.3','1.20.4'], {'pack_format':15,'supported_formats':[15,22]}),
     ('1.20.5-1.21.8', ['1.20.5','1.20.6','1.21','1.21.1','1.21.2','1.21.3','1.21.4','1.21.5','1.21.6','1.21.7','1.21.8'], {'pack_format':32,'supported_formats':[32,64]}),
-    ('1.21.9-26.2', ['1.21.9','1.21.10','1.21.11','26.1','26.1.1','26.1.2','26.2'], {'min_format':[69,0],'max_format':[88,0]}),
+    ('1.21.9-26.3', ['1.21.9','1.21.10','1.21.11','26.1','26.1.1','26.1.2','26.2','26.3'], {'min_format':[69,0],'max_format':[97,1]}),
 ]
 
 def jar_for(v):
@@ -38,12 +38,29 @@ def read_payload(jar):
                 out[loc]=data
     return out
 
-def merge_payload(versions):
+def validate_shared_locale_payloads(versions):
+    payloads={v:read_payload(jar_for(v)) for v in versions}
+    differences=[]
+    for i,left in enumerate(versions):
+        for right in versions[i+1:]:
+            shared=set(payloads[left]) & set(payloads[right])
+            for loc in sorted(shared):
+                if payloads[left][loc] != payloads[right][loc]:
+                    differences.append((left,right,loc))
+    if differences:
+        raise RuntimeError(
+            'Unsafe grouped payload differences for locales shared between versions: '
+            f'{differences[:10]}'
+        )
+    return payloads
+
+def merge_payload(versions, preloaded=None):
+    payloads=preloaded or {v:read_payload(jar_for(v)) for v in versions}
     merged={}
     provenance={}
     conflicts=[]
     for v in versions:
-        for loc, data in read_payload(jar_for(v)).items():
+        for loc, data in payloads[v].items():
             m=merged.setdefault(loc,{})
             for k,val in data.items():
                 if k in m and m[k]!=val:
@@ -109,7 +126,10 @@ description="Unofficial localization expansion for Controlling."
 
 report=[]
 for label,versions,packmeta in GROUPS:
-    merged,prov=merge_payload(versions)
+    preloaded=None
+    if label == '1.21.9-26.3':
+        preloaded=validate_shared_locale_payloads(versions)
+    merged,prov=merge_payload(versions,preloaded)
     classes=copy_classes(jar_for(versions[0]))
     dest=OUT/f'Controlling-Language-Expansion-{VERSION}-mc{label}.jar'
     manifest,mods,neo,fabric,pack=metadata(label,packmeta)
@@ -139,11 +159,10 @@ for v in vs:
     payload=read_payload(jar_for(v))
     canonical=json.dumps(payload,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()
     hashes.append((v,hashlib.sha256(canonical).hexdigest()))
-if len({h for _,h in hashes})!=1:
-    raise RuntimeError('Expected identical payloads for 1.21.9-26.2')
+late_payloads_identical=len({h for _,h in hashes})==1
 
-(OUT/'GROUPED_BUILD_REPORT.json').write_text(json.dumps({'version':VERSION,'jar_count':len(report),'groups':report,'late_payload_hashes':hashes},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-zipout=OUT/'Controlling-Language-Expansion-Grouped-Test-JARs-1.13.2-to-26.2.zip'
+(OUT/'GROUPED_BUILD_REPORT.json').write_text(json.dumps({'version':VERSION,'jar_count':len(report),'groups':report,'late_payload_hashes':hashes,'late_payloads_identical':late_payloads_identical},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+zipout=OUT/'Controlling-Language-Expansion-Grouped-Test-JARs-1.13.2-to-26.3.zip'
 if zipout.exists(): zipout.unlink()
 with zipfile.ZipFile(zipout,'w',compression=zipfile.ZIP_DEFLATED) as z:
     for p in sorted(OUT.glob('*.jar')): z.write(p,p.name)
