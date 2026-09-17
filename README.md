@@ -21,7 +21,7 @@ The original **Controlling** mod is still required. This project only provides a
 
 ## Current Version Support
 
-The project now provides release coverage from **Minecraft 1.7.10 through Minecraft 26.2**, using individual or grouped builds where the localization payload is compatible.
+The project now provides release coverage from **Minecraft 1.7.10 through Minecraft 26.3**, using individual or grouped builds where the localization payload is compatible.
 
 Current release coverage:
 
@@ -40,7 +40,7 @@ Current release coverage:
 - Minecraft 1.19.4
 - Minecraft 1.20-1.20.4
 - Minecraft 1.20.5-1.21.8
-- Minecraft 1.21.9-26.2
+- Minecraft 1.21.9-26.3
 
 Older branches use dedicated compatibility builds when Minecraft, Forge, or localization formats differ significantly. Newer releases are grouped only when the same localization payload can be safely shared across versions.
 
@@ -94,7 +94,7 @@ No additional configuration is required.
 
 ## Upstream Audit
 
-The project audits the version-numbered Controlling branches from Minecraft 1.7.10 through 26.2 and tracks localization changes across seven historical generations.
+The project audits the version-numbered Controlling branches from Minecraft 1.7.10 through 26.3 and tracks localization changes across seven historical generations.
 
 Across the audited history, Controlling uses only 15 unique English localization keys relevant to this expansion project. Official upstream translations remain authoritative for every version and locale.
 
