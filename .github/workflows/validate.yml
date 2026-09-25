@@ -21,10 +21,10 @@ jobs:
       - name: Validate repository
         run: python scripts/validate.py
 
-      - name: Reconstruct pinned Marathi 1.0.1 candidates
+      - name: Build single-JAR Marathi 1.0.1 candidate
         run: python scripts/build_marathi_1_0_1.py
 
-      - name: Validate Marathi 26.3 pack and original 1.0.1 metadata
+      - name: Validate embedded Minecraft 26.3 Marathi and all loader metadata
         run: python scripts/validate_marathi_1_0_1.py
 
       - name: Audit Controlling upstream

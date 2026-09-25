@@ -1,13 +1,8 @@
 {
-  "controlling_jar": {
-    "filename": "Controlling-Language-Expansion-1.0.1-mc1.21.9-26.3-marathi.jar",
-    "sha256": "3bbfe29ab6a7a402558fec8d244cce9fe888f923ec6eaec20635715b7d420e51",
-    "size": 45011
-  },
-  "minecraft_26_3_resourcepack": {
-    "filename": "Minecraft-26.3-Marathi-mr_in-1.0.1.zip",
-    "sha256": "f544f0a9ac689286998b347d4deb1b6f6fa4feb81dff0561811a50b380624eb7",
-    "size": 141306
+  "all_in_one_jar": {
+    "filename": "Controlling-Language-Expansion-1.0.1-mc1.21.9-26.3-marathi-all-in-one.jar",
+    "sha256": "39b0f2aaee21f086821a71361d0abb843c8df833c1ab8905df98b00cb3ee725b",
+    "size": 185705
   },
   "project_version": "1.0.1",
   "minecraft": "26.3",
@@ -16,5 +11,7 @@
   "controlling_locale_count": 127,
   "controlling_marathi_keys": 12,
   "minecraft_marathi_keys": 8559,
+  "embedded_minecraft_language": true,
+  "separate_zip_required": false,
   "release_status": "static_candidate; not published"
 }

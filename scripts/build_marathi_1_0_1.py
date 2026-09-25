@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build Controlling Language Expansion 1.0.1 + standalone Minecraft 26.3 Marathi pack.
-
-Use the user's pinned 1.0.1 baseline JAR, retaining all original loader classes and
-126 locale files. Do not change the original artifact or promote without in-game tests.
+"""Build a single Controlling Language Expansion 1.0.1 JAR containing both Marathi
+Controlling strings and the embedded Minecraft 26.3 Marathi language pack.
+Retain the original 126 locales and all compiled loader classes.
+Static candidate only: no automatic public release without in-game tests.
 """
 from __future__ import annotations
 import argparse
@@ -18,8 +18,7 @@ CONTROLLING=ROOT/"translations/modern/mr_in.json"
 VANILLA=ROOT/"translations/minecraft/26.3/mr_in.json"
 PROVENANCE=ROOT/"translations/minecraft/26.3/provenance.json"
 OUT=ROOT/"build/candidates"
-MOD_FILENAME="Controlling-Language-Expansion-1.0.1-mc1.21.9-26.3-marathi.jar"
-PACK_FILENAME="Minecraft-26.3-Marathi-mr_in-1.0.1.zip"
+MOD_FILENAME="Controlling-Language-Expansion-1.0.1-mc1.21.9-26.3-marathi-all-in-one.jar"
 CONTROLLING_EN={
     "options.showAll":"Show All","options.showConflicts":"Show Conflicts",
     "options.showNone":"Show Unbound","options.availableKeys":"Available Keys",
@@ -59,46 +58,50 @@ def build(base:Path,output:Path)->dict:
     output.mkdir(parents=True,exist_ok=True)
     jar=output/MOD_FILENAME
     entry="assets/controlling/lang/mr_in.json"
+    minecraft_entry="assets/minecraft/lang/mr_in.json"
     with zipfile.ZipFile(base) as inp, zipfile.ZipFile(jar,"w") as out:
         files=inp.namelist()
         original={n:inp.read(n) for n in files}
-        if inp.testzip() is not None or len(files)!=len(set(files)) or entry in files:
+        if (inp.testzip() is not None or len(files)!=len(set(files))
+                or entry in files or minecraft_entry in files):
             raise ValueError("Baseline 1.0.1 archive invalid or already contains Marathi")
-        if not all(n in files for n in ("fabric.mod.json","META-INF/neoforge.mods.toml","META-INF/mods.toml","pack.mcmeta")):
+        if not all(n in files for n in ("fabric.mod.json","META-INF/neoforge.mods.toml",
+                                        "META-INF/mods.toml","pack.mcmeta")):
             raise ValueError("Baseline JAR lost multi-loader metadata")
+        original_pack=json.loads(original["pack.mcmeta"])
+        existing_range=original_pack.get("pack",{})
+        if existing_range.get("max_format")!=[97,1] or existing_range.get("min_format")!=[69,0]:
+            raise ValueError("Original 1.0.1 resource pack compatibility range changed")
+        declared=original_pack.setdefault("language",{})
+        if "mr_in" in declared and declared["mr_in"]!=LANGUAGE["mr_in"]:
+            raise ValueError("Conflicting Marathi language declaration in original JAR")
+        declared.update(LANGUAGE)
         old_langs=[p for p in files if p.startswith("assets/controlling/lang/") and p.endswith(".json")]
         if len(old_langs)!=126 or any(p.endswith("/mr_in.json") for p in old_langs):
             raise ValueError("Unexpected baseline locale set")
         for info in inp.infolist():
-            out.writestr(info,original[info.filename])
+            # Preserve each original entry, including every class and loader descriptor,
+            # except pack.mcmeta, which needs the custom Minecraft language declaration.
+            payload=encoded(original_pack) if info.filename=="pack.mcmeta" else original[info.filename]
+            out.writestr(info,payload)
         add(out,entry,encoded(ctrl))
+        add(out,minecraft_entry,encoded(vanilla))
         out.comment=inp.comment
-    pack=output/PACK_FILENAME
-    pack_meta={
-        "pack":{"description":"मराठी • Minecraft 26.3 • Beyond & More translations",
-                "min_format":[97,1],"max_format":[97,1]},
-        "language":LANGUAGE,
+    result={
+        "all_in_one_jar":{
+            "filename":jar.name,
+            "sha256":hashlib.sha256(jar.read_bytes()).hexdigest(),
+            "size":jar.stat().st_size
+        },
+        "project_version":"1.0.1","minecraft":"26.3","locale":"mr_in",
+        "mod_original_sha256":BASE_SHA256,"controlling_locale_count":127,
+        "controlling_marathi_keys":12,"minecraft_marathi_keys":8559,
+        "embedded_minecraft_language":True,"separate_zip_required":False,
+        "release_status":"static_candidate; not published"
     }
-    with zipfile.ZipFile(pack,"w") as zf:
-        add(zf,"pack.mcmeta",encoded(pack_meta))
-        add(zf,"assets/minecraft/lang/mr_in.json",encoded(vanilla))
-        add(zf,"README.txt",(
-            "Minecraft 26.3 Marathi language pack (mr_in)\n"
-            "Place this ZIP in .minecraft/resourcepacks, enable it in Minecraft, "
-            "then select Marathi in Language settings.\n"
-            "Install Controlling Language Expansion 1.0.1 separately for Controlling's 12 Marathi strings.\n"
-            "Translations reuse Beyond & More 26.1.2 wherever the English key/meaning is unchanged. "
-            "New or modified lines use machine-assisted Marathi and need native-speaker review.\n"
-        ).encode("utf-8"))
-    result={}
-    for name,p in (("controlling_jar",jar),("minecraft_26_3_resourcepack",pack)):
-        result[name]={"filename":p.name,"sha256":hashlib.sha256(p.read_bytes()).hexdigest(),"size":p.stat().st_size}
-    result.update({"project_version":"1.0.1","minecraft":"26.3","locale":"mr_in",
-                   "mod_original_sha256":BASE_SHA256,"controlling_locale_count":127,
-                   "controlling_marathi_keys":12,"minecraft_marathi_keys":8559,
-                   "release_status":"static_candidate; not published"})
-    (output/"marathi_1_0_1_SHA256.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print("PASS: built Marathi Controlling 1.0.1 candidate and Minecraft 26.3 language pack")
+    (output/"marathi_1_0_1_SHA256.json").write_text(
+        json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    print("PASS: built one 1.0.1 JAR with Marathi Controlling + Minecraft 26.3 built in")
     print(json.dumps(result,ensure_ascii=False,indent=2))
     return result
 

@@ -1,56 +1,55 @@
-# Marathi language expansion — 1.0.1 (not yet published)
+# Controlling Language Expansion 1.0.1 — Marathi (single JAR)
 
-The Marathi-inclusive 1.0.1 build is a **static-validated release candidate**. It is not automatically published to CurseForge or Modrinth.
+**Status:** static-validated candidate, not a published Marathi release. One JAR contains both the Controlling translations and the Minecraft Marathi language resources. There is **no second ZIP to install**.
 
-## Downloads
+## Single download and installation
 
-The repository's `release-candidates/1.0.1/` directory contains two separate outputs:
+The sole candidate artifact is `release-candidates/1.0.1/Controlling-Language-Expansion-1.0.1-mc1.21.9-26.3-marathi-all-in-one.jar`.
 
-- `Controlling-Language-Expansion-1.0.1-mc1.21.9-26.3-marathi.jar` — existing multi-loader 1.0.1 JAR, plus the complete new `mr_in` Controlling locale.
-- `Minecraft-26.3-Marathi-mr_in-1.0.1.zip` — the companion **Minecraft 26.3-only** resource pack that registers Marathi (`मराठी`) in the language menu and provides the vanilla UI, item, block and other text.
+Place this JAR in your Minecraft instance's `mods/` folder alongside the original **Controlling** mod, which remains a required dependency. The JAR contains the custom-language registration in its own `pack.mcmeta` and both namespaced translations:
 
-### Installation
+- `assets/controlling/lang/mr_in.json` — 12 keys for Controlling.
+- `assets/minecraft/lang/mr_in.json` — 8,559 vanilla keys for Minecraft 26.3.
+- `pack.mcmeta` — adds `mr_in` (`मराठी`, `भारत`) without changing the original compatibility range 69.0–97.1.
 
-Copy the JAR to your Minecraft instance's `mods/` folder alongside Controlling. Leave the accompanying Minecraft ZIP intact in `resourcepacks/`, enable it in-game, then choose `मराठी` (Marathi) from Language settings. The ZIP is specifically keyed to Minecraft 26.3 and its resource-pack format 97.1; do not advertise the ZIP as compatible with other Minecraft versions without a separate source-key audit.
+The JAR preserves the original compiled Forge/NeoForge/Fabric entrypoints, all 126 existing Controlling locales and all mod metadata. The language should become selectable from Minecraft's language menu when the loader includes this mod's resource pack. **This integration still requires an in-game test** on each claimed loader. No standalone resource-pack ZIP is distributed.
 
-The Controlling JAR retains the baseline's multi-version range **Minecraft 1.21.9–26.3**, its original Fabric/Forge/NeoForge metadata and all 126 existing language resource files. The additional Marathi file covers all **12 official Controlling keys**.
+**Version scoping:** Controlling's original JAR declares Minecraft **1.21.9–26.3**. The embedded *Minecraft* Marathi translation was audited specifically for **26.3**; coverage and vocabulary for other Minecraft versions must not be claimed without separate source audits.
 
-## Minecraft source and coverage
+## Translation provenance and completeness
 
-The Marathi Minecraft pack is derived **directly from the user's Beyond & More 26.1.2** `assets/minecraft/lang/mr_in.json`, SHA-256 `3881d10637b21a890ff40c631937852ee60d60669dce45d25686c1b4d0f079f8`. The actual English source keys were independently retrieved from official Minecraft 26.1.2 and 26.3 client JARs:
+The vanilla Marathi source was retrieved **directly from Beyond & More 26.1.2** `assets/minecraft/lang/mr_in.json` (SHA-256 `3881d10637b21a890ff40c631937852ee60d60669dce45d25686c1b4d0f079f8`) and audited against official Minecraft 26.1.2 and 26.3 English resource files.
 
-| Source | English keys |
+| Metric | Count |
 |---|---:|
-| Minecraft 26.1.2 / Beyond & More | 7,886 |
-| Minecraft 26.3 | 8,559 |
-| Added keys | 673 |
-| Changed English values | 95 |
+| Official Minecraft 26.1.2 keys | 7,886 |
+| Official Minecraft 26.3 keys | 8,559 |
+| Added 26.3 keys | 673 |
+| Changed English meanings | 95 |
 | Removed keys | 0 |
+| Exact same-key/same-English Beyond & More reuses | 7,790 |
+| Verified unique identical-English cross-key reuses | 45 |
+| Curated corrections (including `language.code=mr_in`) | 2 |
+| Machine-assisted new/changed Marathi entries | 722 |
+| Official technical-token signatures tested | 1,082 |
 
-The 8,559-key pack combines **7,790 exact same-key/same-English Beyond & More values**, **45 verified identical-English cross-key values**, **2 curated fixes** (including correcting `language.code` from `en_us` to `mr_in`), and **722 machine-assisted Marathi translations** for the remaining added/changed keys.
+The 722 machine-assisted strings require a native Marathi review. Some 248 entries still match their English source values; most represent identifiers, keyboard names, technical tokens and formatting-only strings. A complete key inventory **does not imply a human-reviewed translation**.
 
-The 722 machine-assisted values require native-speaker proofreading before calling the localization human-verified. The source also intentionally retains **248 English-identical values**, predominantly technical/UI tokens, keyboard key names, identifiers and format-only strings. All 1,082 official placeholder/technical-token signatures passed static checks.
-
-The official Minecraft 26.3 asset index contains no `mr_in` locale. The companion pack declares the new language using Minecraft's `pack.mcmeta` custom `language` section, and embeds `assets/minecraft/lang/mr_in.json`.
-
-## English changelog — CurseForge / Modrinth
+## Changelog — CurseForge / Modrinth
 
 Controlling Language Expansion 1.0.1 — Marathi Update
 
-- Added complete Marathi (`mr_in`) coverage for all 12 current Controlling translation keys.
-- Preserved all 126 existing Controlling language files and official upstream translation priority.
-- Added an optional standalone Minecraft 26.3 Marathi resource pack covering 8,559 vanilla localization keys, adapted from Beyond & More's 26.1.2 Marathi files.
-- Matched 673 newly introduced Minecraft keys and re-evaluated 95 changed English source strings.
-- Machine-assisted translations were used for 722 new/changed entries; native-language review remains outstanding.
-- Verified placeholders, JSON syntax, original loader metadata, and the original JAR entry contents.
-- Supports Controlling on Minecraft 1.21.9–26.3; the companion Minecraft resource pack targets Minecraft 26.3 specifically.
+- Added a complete Marathi (`mr_in`) translation for all 12 Controlling localization keys.
+- Added the Minecraft 26.3 Marathi language pack **inside the same JAR**, registering Marathi in the Minecraft language menu. No additional ZIP is required.
+- Includes all 8,559 official Minecraft 26.3 translation keys, adapting 7,835 verified Beyond & More translations and adding 722 machine-assisted values for new or changed text.
+- Preserves all 126 existing Controlling language files, original loader classes and published dependency metadata.
+- Verified JSON coverage, technical placeholders, language metadata, reproducible JAR content and SHA-256.
+- The Controlling mod's declared Minecraft range remains 1.21.9–26.3; embedded vanilla Marathi text is audited specifically for Minecraft 26.3.
 
-The Marathi-inclusive JAR and companion pack have passed static checks, but in-game language-menu, font-rendering and loader compatibility testing remains to be performed before public publication.
+**Review/testing:** Marathi native-speaker proofreading, in-game language selection, Devanagari font rendering and Forge/NeoForge/Fabric runtime tests remain open. This is not yet a verified public release.
 
-## Reproduction and validation
+## Build and verification
 
-The pinned 1.0.1 base JAR is stored under `vendor/` only to preserve the original compiled loader classes and existing translations. All original ZIP entry contents are compared byte-for-byte with the new candidate, apart from the single added `mr_in.json` entry. Build with `python scripts/build_marathi_1_0_1.py`; check with `python scripts/validate_marathi_1_0_1.py`.
+Run `python scripts/build_marathi_1_0_1.py` and `python scripts/validate_marathi_1_0_1.py`. Both operate on the pinned original 1.0.1 JAR in `vendor/` and the checked-in 12-key Controlling/8,559-key Minecraft source files. The validator requires that **every original archive entry is unchanged except `pack.mcmeta`**, and checks the two additions (`mr_in` for Controlling and Minecraft).
 
-The source derivation generator `scripts/prepare_marathi_26_3.py` can be rerun when the original Beyond & More Marathi JSON and both official English JSONs are available. `scripts/freeze_minecraft_26_3_signatures.py` creates the non-English-content upstream key/placeholder reference used by CI.
-
-**Release gate:** Do not promote a statically validated candidate to a verified final release until Minecraft 26.3 plus Controlling is tested in-game with the language ZIP enabled and Devanagari glyph rendering checked.
+Run `python scripts/prepare_marathi_26_3.py` to re-audit the Beyond & More source when both official Minecraft English sources are available. The frozen 26.3 key and placeholder-signature inventory enables offline CI checks. The canonical candidate lives under `release-candidates/1.0.1/` with its SHA-256 manifest; no separate ZIP is required.
