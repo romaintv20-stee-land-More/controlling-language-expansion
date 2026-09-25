@@ -1,0 +1,26 @@
+{
+  "added_keys": 673,
+  "bidirectional": false,
+  "changed_english_values": 95,
+  "locale": "mr_in",
+  "machine_translation_requires_native_speaker_review": true,
+  "minecraft": "26.3",
+  "name": "मराठी",
+  "notes": "Unchanged exact source values were taken directly from the user's Beyond & More Marathi translation. New and changed English source values were translated using Google Translate when available; cross-key inheritance is limited to uniquely identical English values.",
+  "official_baseline": "26.1.2",
+  "official_baseline_english_keys": 7886,
+  "official_target": "26.3",
+  "official_target_english_keys": 8559,
+  "project_version": "1.0.1",
+  "region": "भारत",
+  "remaining_english_values": 248,
+  "schema_version": 1,
+  "source_beyond_and_more": "Beyond & More 26.1.2, assets/minecraft/lang/mr_in.json",
+  "source_beyond_and_more_sha256": "3881d10637b21a890ff40c631937852ee60d60669dce45d25686c1b4d0f079f8",
+  "translation_methods": {
+    "beyond_same_english_other_key": 45,
+    "beyond_same_key_same_english": 7790,
+    "curated": 2,
+    "machine_google": 722
+  }
+}

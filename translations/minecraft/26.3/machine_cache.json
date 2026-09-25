@@ -1,0 +1,2802 @@
+{
+  "%1$s died because not just the floor is lava": {
+    "method": "machine_google",
+    "value": "%1$s मरण पावला कारण फक्त मजला लावा नाही"
+  },
+  "%2$s showed %1$s that not just the floor is lava": {
+    "method": "machine_google",
+    "value": "%2$s ने %1$s ला दाखवले की फक्त मजला लावा नाही"
+  },
+  "%2$s showed %1$s that not just the floor is lava using %3$s": {
+    "method": "machine_google",
+    "value": "%2$s ने %1$s ला दाखवले की %3$s वापरून फक्त मजला लावा नाही"
+  },
+  "%s accepted your friend request": {
+    "method": "machine_google",
+    "value": "%s ने तुमची मित्र विनंती स्वीकारली"
+  },
+  "%s friends accepted your friend requests": {
+    "method": "machine_google",
+    "value": "%s मित्रांनी तुमच्या मित्र विनंत्या स्वीकारल्या"
+  },
+  "%s has %s tag(s): %s": {
+    "method": "machine_google",
+    "value": "%s मध्ये %s टॅग(s): %s"
+  },
+  "%s has already sent you a friend request": {
+    "method": "machine_google",
+    "value": "%s ने तुम्हाला आधीच मित्र विनंती पाठवली आहे"
+  },
+  "%s has been invited to join your world.": {
+    "method": "machine_google",
+    "value": "%s ला तुमच्या जगात सामील होण्यासाठी आमंत्रित केले आहे."
+  },
+  "%s has been removed from your friends list": {
+    "method": "machine_google",
+    "value": "तुमच्या मित्रांच्या यादीतून %s काढून टाकण्यात आले आहे"
+  },
+  "%s invited you to join their world. Open the friends list by pressing \"%s\" to join": {
+    "method": "machine_google",
+    "value": "%s ने तुम्हाला त्यांच्या जगात सामील होण्यासाठी आमंत्रित केले आहे. सामील होण्यासाठी \"%s\" दाबून मित्रांची यादी उघडा"
+  },
+  "%s is already on your Friends List": {
+    "method": "machine_google",
+    "value": "%s आधीच तुमच्या मित्रांच्या यादीत आहे"
+  },
+  "%s returned invalid value (%s)": {
+    "method": "machine_google",
+    "value": "%s ने अवैध मूल्य परत केले (%s)"
+  },
+  "%s returned value %s": {
+    "method": "machine_google",
+    "value": "%s ने परत केलेले मूल्य %s"
+  },
+  "%s returned value %s (rounded to %s)": {
+    "method": "machine_google",
+    "value": "%s ने परत केलेले मूल्य %s (%s वर पूर्ण केले)"
+  },
+  "%s sent you a friend request": {
+    "method": "machine_google",
+    "value": "%s ने तुम्हाला मित्र विनंती पाठवली"
+  },
+  "%s wants to join your world. Open the Friends list with \"%s\" or from the game menu.": {
+    "method": "machine_google",
+    "value": "%s ला तुमच्या जगात सामील व्हायचे आहे. \"%s\" सह किंवा गेम मेनूमधून मित्रांची यादी उघडा."
+  },
+  "%s x %s": {
+    "method": "machine_google",
+    "value": "%s x %s"
+  },
+  "%s%%": {
+    "method": "machine_google",
+    "value": "%s%%"
+  },
+  "(Rotated Grid Super Sampling)\nA shader-based filtering method that improves texture quality with a moderate performance impact.": {
+    "method": "machine_google",
+    "value": "(रोटेड ग्रिड सुपर सॅम्पलिंग)\nएक शेडर-आधारित फिल्टरिंग पद्धत जी मध्यम कार्यप्रदर्शन प्रभावासह पोत गुणवत्ता सुधारते."
+  },
+  "1 day": {
+    "method": "machine_google",
+    "value": "1 दिवस"
+  },
+  "1 hour": {
+    "method": "machine_google",
+    "value": "1 तास"
+  },
+  "12 hours": {
+    "method": "machine_google",
+    "value": "12 तास"
+  },
+  "30 minutes": {
+    "method": "machine_google",
+    "value": "30 मिनिटे"
+  },
+  "6 hours": {
+    "method": "machine_google",
+    "value": "6 तास"
+  },
+  "7 days": {
+    "method": "machine_google",
+    "value": "7 दिवस"
+  },
+  "A better way to play together": {
+    "method": "machine_google",
+    "value": "एकत्र खेळण्याचा एक चांगला मार्ग"
+  },
+  "A hardware-based filtering method, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware.": {
+    "method": "machine_google",
+    "value": "हार्डवेअर-आधारित फिल्टरिंग पद्धत, परंतु कार्यक्षमतेवर परिणाम करते आणि व्हिडिओ मेमरी वापरावर लक्षणीय परिणाम करते. सर्व हार्डवेअरवर समर्थित असू शकत नाही."
+  },
+  "AC Back": {
+    "method": "machine_google",
+    "value": "एसी मागे"
+  },
+  "AC Close": {
+    "method": "machine_google",
+    "value": "एसी बंद"
+  },
+  "AC Exit": {
+    "method": "machine_google",
+    "value": "एसी बाहेर पडा"
+  },
+  "AC Favorites": {
+    "method": "machine_google",
+    "value": "एसी आवडते"
+  },
+  "AC Forward": {
+    "method": "machine_google",
+    "value": "एसी फॉरवर्ड"
+  },
+  "AC Home": {
+    "method": "machine_google",
+    "value": "एसी घर"
+  },
+  "AC New": {
+    "method": "machine_google",
+    "value": "एसी नवीन"
+  },
+  "AC Open": {
+    "method": "machine_google",
+    "value": "एसी उघडा"
+  },
+  "AC Print": {
+    "method": "machine_google",
+    "value": "एसी प्रिंट"
+  },
+  "AC Properties": {
+    "method": "machine_google",
+    "value": "एसी गुणधर्म"
+  },
+  "AC Refresh": {
+    "method": "machine_google",
+    "value": "एसी रिफ्रेश"
+  },
+  "AC Save": {
+    "method": "machine_google",
+    "value": "एसी सेव्ह"
+  },
+  "AC Search": {
+    "method": "machine_google",
+    "value": "एसी शोध"
+  },
+  "AC Stop": {
+    "method": "machine_google",
+    "value": "एसी स्टॉप"
+  },
+  "Abandoned Camp Map": {
+    "method": "machine_google",
+    "value": "बेबंद कॅम्प नकाशा"
+  },
+  "Abandoned Campsite Map": {
+    "method": "machine_google",
+    "value": "बेबंद कॅम्पसाईट नकाशा"
+  },
+  "Account Permanently Banned": {
+    "method": "machine_google",
+    "value": "खाते कायमचे प्रतिबंधित"
+  },
+  "Account Temporarily Suspended": {
+    "method": "machine_google",
+    "value": "खाते तात्पुरते निलंबित केले"
+  },
+  "Active": {
+    "method": "machine_google",
+    "value": "सक्रिय"
+  },
+  "Added post effect %s to %s": {
+    "method": "machine_google",
+    "value": "पोस्ट इफेक्ट %s ला %s मध्ये जोडले"
+  },
+  "Added post effect %s to %s players": {
+    "method": "machine_google",
+    "value": "%s खेळाडूंना पोस्ट इफेक्ट %s जोडले"
+  },
+  "Again": {
+    "method": "machine_google",
+    "value": "पुन्हा"
+  },
+  "Air Drag Modifier": {
+    "method": "machine_google",
+    "value": "एअर ड्रॅग मॉडिफायर"
+  },
+  "All input methods are expected to work in this fullscreen mode, but adaptive sync (Nvidia G-Sync, AMD FreeSync) will not work.": {
+    "method": "machine_google",
+    "value": "या पूर्णस्क्रीन मोडमध्ये सर्व इनपुट पद्धतींनी कार्य करणे अपेक्षित आहे, परंतु अनुकूली समक्रमण (Nvidia G-Sync, AMD FreeSync) कार्य करणार नाही."
+  },
+  "Allow Requests": {
+    "method": "machine_google",
+    "value": "विनंत्यांना अनुमती द्या"
+  },
+  "Allow other players to send you friend requests": {
+    "method": "machine_google",
+    "value": "इतर खेळाडूंना तुम्हाला मित्र विनंत्या पाठवण्याची परवानगी द्या"
+  },
+  "Allows the use of commands in this world.": {
+    "method": "machine_google",
+    "value": "या जगात आज्ञा वापरण्याची परवानगी देते."
+  },
+  "Alternate Erase": {
+    "method": "machine_google",
+    "value": "पर्यायी मिटवा"
+  },
+  "An experimental approach that uses an order-independent transparency algorithm to avoid graphical issues normally present when looking through multiple layers of translucent objects.\nThis will impact performance.": {
+    "method": "machine_google",
+    "value": "एक प्रायोगिक दृष्टीकोन जो अर्धपारदर्शक वस्तूंच्या अनेक स्तरांमधून पाहताना ग्राफिकल समस्या टाळण्यासाठी ऑर्डर-स्वतंत्र पारदर्शकता अल्गोरिदम वापरतो.\nयामुळे कामगिरीवर परिणाम होईल."
+  },
+  "An unexpected error occurred while trying to execute that command": {
+    "method": "machine_google",
+    "value": "ती आज्ञा कार्यान्वित करण्याचा प्रयत्न करताना एक अनपेक्षित त्रुटी आली"
+  },
+  "An unexpected error occurred while updating your Friends List. Please try again later.": {
+    "method": "machine_google",
+    "value": "तुमची फ्रेंड लिस्ट अपडेट करताना एक अनपेक्षित एरर आली. कृपया नंतर पुन्हा प्रयत्न करा."
+  },
+  "Ancient City Map": {
+    "method": "machine_google",
+    "value": "प्राचीन शहराचा नकाशा"
+  },
+  "Application": {
+    "method": "machine_google",
+    "value": "अर्ज"
+  },
+  "Apply Changes": {
+    "method": "machine_google",
+    "value": "बदल लागू करा"
+  },
+  "Are you sure you want to remove this player from your Friends List?": {
+    "method": "machine_google",
+    "value": "तुमची खात्री आहे की तुम्ही हा खेळाडू तुमच्या मित्रांच्या यादीतून काढून टाकू इच्छिता?"
+  },
+  "Arizona, USA": {
+    "method": "machine_google",
+    "value": "ऍरिझोना, यूएसए"
+  },
+  "Ask to join": {
+    "method": "machine_google",
+    "value": "सामील होण्यास सांगा"
+  },
+  "Back Text:": {
+    "method": "machine_google",
+    "value": "मागील मजकूर:"
+  },
+  "Backend Creation Failure Message": {
+    "method": "machine_google",
+    "value": "बॅकएंड निर्मिती अयशस्वी संदेश"
+  },
+  "Backend Creation Failure Missing Capabilities": {
+    "method": "machine_google",
+    "value": "बॅकएंड निर्मिती अयशस्वी क्षमता गहाळ"
+  },
+  "Backend Creation Failure Reason": {
+    "method": "machine_google",
+    "value": "बॅकएंड निर्मिती अयशस्वी कारण"
+  },
+  "Backend Name": {
+    "method": "machine_google",
+    "value": "बॅकएंड नाव"
+  },
+  "Bamboo Camp Map": {
+    "method": "machine_google",
+    "value": "बांबू कॅम्प नकाशा"
+  },
+  "Bamboo Jungle Abandoned Camp Map": {
+    "method": "machine_google",
+    "value": "बांबू जंगल भन्नाट कॅम्प नकाशा"
+  },
+  "Birch Forest Abandoned Camp Map": {
+    "method": "machine_google",
+    "value": "बर्च फॉरेस्ट बेबंद कॅम्प नकाशा"
+  },
+  "Birch Forest Camp Map": {
+    "method": "machine_google",
+    "value": "बर्च वन कॅम्प नकाशा"
+  },
+  "Black Concrete Slab": {
+    "method": "machine_google",
+    "value": "ब्लॅक काँक्रिट स्लॅब"
+  },
+  "Black Concrete Stairs": {
+    "method": "machine_google",
+    "value": "काळ्या काँक्रीटच्या पायऱ्या"
+  },
+  "Black Cushion": {
+    "method": "machine_google",
+    "value": "काळी उशी"
+  },
+  "Black Wool Slab": {
+    "method": "machine_google",
+    "value": "काळ्या लोकर स्लॅब"
+  },
+  "Black Wool Stairs": {
+    "method": "machine_google",
+    "value": "काळ्या लोकर पायऱ्या"
+  },
+  "Block removed": {
+    "method": "machine_google",
+    "value": "ब्लॉक काढला"
+  },
+  "Blue Concrete Slab": {
+    "method": "machine_google",
+    "value": "निळा कंक्रीट स्लॅब"
+  },
+  "Blue Concrete Stairs": {
+    "method": "machine_google",
+    "value": "निळ्या काँक्रीटच्या पायऱ्या"
+  },
+  "Blue Cushion": {
+    "method": "machine_google",
+    "value": "निळी उशी"
+  },
+  "Blue Wool Slab": {
+    "method": "machine_google",
+    "value": "ब्लू वूल स्लॅब"
+  },
+  "Blue Wool Stairs": {
+    "method": "machine_google",
+    "value": "निळ्या लोकर पायऱ्या"
+  },
+  "Bounciness": {
+    "method": "machine_google",
+    "value": "उच्छृंखलपणा"
+  },
+  "Brown Concrete Slab": {
+    "method": "machine_google",
+    "value": "तपकिरी काँक्रीट स्लॅब"
+  },
+  "Brown Concrete Stairs": {
+    "method": "machine_google",
+    "value": "तपकिरी काँक्रीट पायऱ्या"
+  },
+  "Brown Cushion": {
+    "method": "machine_google",
+    "value": "तपकिरी उशी"
+  },
+  "Brown Wool Slab": {
+    "method": "machine_google",
+    "value": "तपकिरी लोकर स्लॅब"
+  },
+  "Brown Wool Stairs": {
+    "method": "machine_google",
+    "value": "तपकिरी लोकर पायऱ्या"
+  },
+  "Bubbles whoosh": {
+    "method": "machine_google",
+    "value": "बुडबुडे हूश"
+  },
+  "Bucket of Sulfur Cube": {
+    "method": "machine_google",
+    "value": "सल्फर क्यूबची बादली"
+  },
+  "Build, light, and enter a Nether Portal": {
+    "method": "machine_google",
+    "value": "नेदर पोर्टल तयार करा, प्रकाश द्या आणि प्रविष्ट करा"
+  },
+  "Buried Ancient City Map": {
+    "method": "machine_google",
+    "value": "दफन केलेला प्राचीन शहराचा नकाशा"
+  },
+  "Buried Mineshaft Map": {
+    "method": "machine_google",
+    "value": "दफन केलेला माइनशाफ्ट नकाशा"
+  },
+  "Buried Trial Chambers Map": {
+    "method": "machine_google",
+    "value": "दफन केलेल्या चाचणी चेंबर्स नकाशा"
+  },
+  "Can only set the world spawn for the Overworld": {
+    "method": "machine_google",
+    "value": "ओव्हरवर्ल्डसाठी फक्त जग सेट करू शकतो"
+  },
+  "Canada": {
+    "method": "machine_google",
+    "value": "कॅनडा"
+  },
+  "Cancel request": {
+    "method": "machine_google",
+    "value": "विनंती रद्द करा"
+  },
+  "Cannot allow commands in a demo world.": {
+    "method": "machine_google",
+    "value": "डेमो जगामध्ये आदेशांना अनुमती देऊ शकत नाही."
+  },
+  "Cannot allow commands in a hardcore world.": {
+    "method": "machine_google",
+    "value": "हार्डकोर जगामध्ये आदेशांना अनुमती देऊ शकत नाही."
+  },
+  "Cannot change game rules in a hardcore world.": {
+    "method": "machine_google",
+    "value": "हार्डकोर जगात गेमचे नियम बदलू शकत नाही."
+  },
+  "Cannot change the command access of players joining your world when commands are not allowed.": {
+    "method": "machine_google",
+    "value": "आदेशांना अनुमती नसताना तुमच्या जगात सामील होणाऱ्या खेळाडूंचा आदेश प्रवेश बदलू शकत नाही."
+  },
+  "Cannot change the command access of players joining your world when the world's multiplayer scope is set to \"Off\".": {
+    "method": "machine_google",
+    "value": "जगातील मल्टीप्लेअर स्कोप \"बंद\" वर सेट केलेले असताना तुमच्या जगात सामील होणाऱ्या खेळाडूंचा आदेश प्रवेश बदलू शकत नाही."
+  },
+  "Cannot change the difficulty in a hardcore world.": {
+    "method": "machine_google",
+    "value": "कट्टर जगात अडचण बदलू शकत नाही."
+  },
+  "Cannot change the game mode in a hardcore world.": {
+    "method": "machine_google",
+    "value": "हार्डकोर जगात गेम मोड बदलू शकत नाही."
+  },
+  "Cannot change this setting in a hardcore world.": {
+    "method": "machine_google",
+    "value": "हार्डकोर जगात हे सेटिंग बदलू शकत नाही."
+  },
+  "Cannot change this setting when the world's multiplayer scope is set to \"Off\".": {
+    "method": "machine_google",
+    "value": "जगातील मल्टीप्लेअर स्कोप \"बंद\" वर सेट केल्यावर ही सेटिंग बदलू शकत नाही."
+  },
+  "Cannot kick the server owner in a LAN game": {
+    "method": "machine_google",
+    "value": "LAN गेममध्ये सर्व्हर मालकाला किक करू शकत नाही"
+  },
+  "Cannot mix world and local coordinates (everything must either use ^ or not)": {
+    "method": "machine_google",
+    "value": "जग आणि स्थानिक निर्देशांक एकत्र करू शकत नाही (प्रत्येक गोष्टीने एकतर ^ किंवा नाही वापरणे आवश्यक आहे)"
+  },
+  "Change Language": {
+    "method": "machine_google",
+    "value": "भाषा बदला"
+  },
+  "Changes the default game mode of the world.": {
+    "method": "machine_google",
+    "value": "जगाचा डीफॉल्ट गेम मोड बदलतो."
+  },
+  "Changes to Xbox settings may take some time to apply.\n\nIf they don't update, restart the game.": {
+    "method": "machine_google",
+    "value": "Xbox सेटिंग्जमधील बदल लागू होण्यासाठी काही वेळ लागू शकतो.\n\nते अपडेट न झाल्यास, गेम रीस्टार्ट करा."
+  },
+  "Changes your game mode in this world.": {
+    "method": "machine_google",
+    "value": "या जगात तुमचा गेम मोड बदलतो."
+  },
+  "Changing the difficulty requires operator permissions.": {
+    "method": "machine_google",
+    "value": "अडचण बदलण्यासाठी ऑपरेटरची परवानगी आवश्यक आहे."
+  },
+  "Changing the game mode requires operator permissions.": {
+    "method": "machine_google",
+    "value": "गेम मोड बदलण्यासाठी ऑपरेटरच्या परवानग्या आवश्यक आहेत."
+  },
+  "Channel Down": {
+    "method": "machine_google",
+    "value": "चॅनल डाऊन"
+  },
+  "Channel Up": {
+    "method": "machine_google",
+    "value": "चॅनल वर"
+  },
+  "Chat is restricted by the launcher.": {
+    "method": "machine_google",
+    "value": "लाँचरद्वारे चॅट प्रतिबंधित आहे."
+  },
+  "Cherry Grove Abandoned Camp Map": {
+    "method": "machine_google",
+    "value": "चेरी ग्रोव्ह बेबंद कॅम्प नकाशा"
+  },
+  "Cherry Grove Camp Map": {
+    "method": "machine_google",
+    "value": "चेरी ग्रोव्ह कॅम्प नकाशा"
+  },
+  "Chiseled Cinnabar": {
+    "method": "machine_google",
+    "value": "छिन्नी केलेले सिनाबार"
+  },
+  "Chiseled Sulfur": {
+    "method": "machine_google",
+    "value": "छिन्नी सल्फर"
+  },
+  "Cinnabar": {
+    "method": "machine_google",
+    "value": "सिन्नबार"
+  },
+  "Cinnabar Brick Slab": {
+    "method": "machine_google",
+    "value": "Cinnabar वीट स्लॅब"
+  },
+  "Cinnabar Brick Stairs": {
+    "method": "machine_google",
+    "value": "Cinnabar वीट पायऱ्या"
+  },
+  "Cinnabar Brick Wall": {
+    "method": "machine_google",
+    "value": "Cinnabar वीट भिंत"
+  },
+  "Cinnabar Bricks": {
+    "method": "machine_google",
+    "value": "Cinnabar विटा"
+  },
+  "Cinnabar Slab": {
+    "method": "machine_google",
+    "value": "सिनाबार स्लॅब"
+  },
+  "Cinnabar Stairs": {
+    "method": "machine_google",
+    "value": "Cinnabar पायऱ्या"
+  },
+  "Cinnabar Wall": {
+    "method": "machine_google",
+    "value": "सिन्नाबार वॉल"
+  },
+  "Clear": {
+    "method": "machine_google",
+    "value": "साफ"
+  },
+  "Clear Again": {
+    "method": "machine_google",
+    "value": "पुन्हा साफ करा"
+  },
+  "Cleared the color for team %s": {
+    "method": "machine_google",
+    "value": "संघ %s साठी रंग साफ केला"
+  },
+  "Click actions are disabled for this sign": {
+    "method": "machine_google",
+    "value": "या चिन्हासाठी क्लिक क्रिया अक्षम केल्या आहेत"
+  },
+  "Clock %s is already advancing at %sx normal rate": {
+    "method": "machine_google",
+    "value": "घड्याळ %s आधीच %sx सामान्य दराने पुढे जात आहे"
+  },
+  "Clock %s is already at time marker %s": {
+    "method": "machine_google",
+    "value": "घड्याळ %s आधीच %s मार्कर वेळेवर आहे"
+  },
+  "Clock %s is already paused": {
+    "method": "machine_google",
+    "value": "घड्याळ %s आधीच थांबवले आहे"
+  },
+  "Clock %s is already running": {
+    "method": "machine_google",
+    "value": "घड्याळ %s आधीच चालू आहे"
+  },
+  "Clock %s is already set to %s tick(s)": {
+    "method": "machine_google",
+    "value": "घड्याळ %s आधीच %s टिक(s) वर सेट आहे"
+  },
+  "Command Access": {
+    "method": "machine_google",
+    "value": "आदेश प्रवेश"
+  },
+  "Confirm": {
+    "method": "machine_google",
+    "value": "पुष्टी करा"
+  },
+  "Connection Successful": {
+    "method": "machine_google",
+    "value": "कनेक्शन यशस्वी झाले"
+  },
+  "Connection request timed out": {
+    "method": "machine_google",
+    "value": "कनेक्शन विनंती कालबाह्य झाली"
+  },
+  "Contains: %s": {
+    "method": "machine_google",
+    "value": "समाविष्टीत आहे: %s"
+  },
+  "Controls drops from Minecarts (including inventories), Item Frames, Boats, etc.": {
+    "method": "machine_google",
+    "value": "माइनकार्ट्स (इन्व्हेंटरीजसह), आयटम फ्रेम्स, बोट्स इ. मधील थेंब नियंत्रित करते."
+  },
+  "Controls whether players that join your world can use commands or not.": {
+    "method": "machine_google",
+    "value": "तुमच्या जगात सामील होणारे खेळाडू कमांड वापरू शकतात की नाही हे नियंत्रित करते."
+  },
+  "Copper Golem can't pick up an item": {
+    "method": "machine_google",
+    "value": "कॉपर गोलेम एखादी वस्तू उचलू शकत नाही"
+  },
+  "Copper Golem is picking up an item": {
+    "method": "machine_google",
+    "value": "कॉपर गोलेम एक वस्तू उचलत आहे"
+  },
+  "Copy": {
+    "method": "machine_google",
+    "value": "कॉपी करा"
+  },
+  "Copy profile name %s to clipboard": {
+    "method": "machine_google",
+    "value": "प्रोफाईल नाव %s क्लिपबोर्डवर कॉपी करा"
+  },
+  "Could not connect to this Realm": {
+    "method": "machine_google",
+    "value": "या क्षेत्राशी कनेक्ट करू शकलो नाही"
+  },
+  "Could not find a biome of type \"%s\" within a reasonable distance": {
+    "method": "machine_google",
+    "value": "वाजवी अंतरावर \"%s\" प्रकाराचा बायोम शोधू शकलो नाही"
+  },
+  "Could not find a point of interest of type \"%s\" within a reasonable distance": {
+    "method": "machine_google",
+    "value": "वाजवी अंतरावर \"%s\" प्रकारातील स्वारस्य बिंदू शोधू शकलो नाही"
+  },
+  "Could not find a world with the provided identifier": {
+    "method": "machine_google",
+    "value": "प्रदान केलेल्या अभिज्ञापकासह जग शोधू शकलो नाही"
+  },
+  "Couldn't connect to player": {
+    "method": "machine_google",
+    "value": "प्लेअरशी कनेक्ट करू शकलो नाही"
+  },
+  "CrSel": {
+    "method": "machine_google",
+    "value": "CrSel"
+  },
+  "Create Invite Code": {
+    "method": "machine_google",
+    "value": "आमंत्रण कोड तयार करा"
+  },
+  "Created stopwatch '%s'": {
+    "method": "machine_google",
+    "value": "स्टॉपवॉच '%s' तयार केले"
+  },
+  "Currency Subunit": {
+    "method": "machine_google",
+    "value": "चलन उपयुनिट"
+  },
+  "Currency Unit": {
+    "method": "machine_google",
+    "value": "चलन युनिट"
+  },
+  "Cushion": {
+    "method": "machine_google",
+    "value": "उशी"
+  },
+  "Cushion breaks": {
+    "method": "machine_google",
+    "value": "उशी तुटते"
+  },
+  "Cushion placed": {
+    "method": "machine_google",
+    "value": "उशी ठेवली"
+  },
+  "Custom bossbar %s is currently visible": {
+    "method": "machine_google",
+    "value": "सानुकूल बॉसबार %s सध्या दृश्यमान आहे"
+  },
+  "Cut": {
+    "method": "machine_google",
+    "value": "कट"
+  },
+  "Cyan Concrete Slab": {
+    "method": "machine_google",
+    "value": "निळसर काँक्रीट स्लॅब"
+  },
+  "Cyan Concrete Stairs": {
+    "method": "machine_google",
+    "value": "निळसर काँक्रीट पायऱ्या"
+  },
+  "Cyan Cushion": {
+    "method": "machine_google",
+    "value": "निळसर उशी"
+  },
+  "Cyan Wool Slab": {
+    "method": "machine_google",
+    "value": "निळसर लोकर स्लॅब"
+  },
+  "Cyan Wool Stairs": {
+    "method": "machine_google",
+    "value": "निळसर लोकर पायऱ्या"
+  },
+  "Dappled Forest": {
+    "method": "machine_google",
+    "value": "डॅपल्ड फॉरेस्ट"
+  },
+  "Dappled Forest Abandoned Camp Map": {
+    "method": "machine_google",
+    "value": "डॅपल्ड फॉरेस्ट बेबंद कॅम्प नकाशा"
+  },
+  "Dappled Forest Camp Map": {
+    "method": "machine_google",
+    "value": "डॅपल्ड फॉरेस्ट कॅम्प नकाशा"
+  },
+  "Decimal Separator": {
+    "method": "machine_google",
+    "value": "दशांश विभाजक"
+  },
+  "Decline": {
+    "method": "machine_google",
+    "value": "नकार"
+  },
+  "Default": {
+    "method": "machine_google",
+    "value": "डीफॉल्ट"
+  },
+  "Default Game Mode": {
+    "method": "machine_google",
+    "value": "डीफॉल्ट गेम मोड"
+  },
+  "Desert Pyramid Map": {
+    "method": "machine_google",
+    "value": "वाळवंट पिरॅमिड नकाशा"
+  },
+  "Difficulty is locked.": {
+    "method": "machine_google",
+    "value": "अडचण कुलूपबंद आहे."
+  },
+  "Dimension: %s": {
+    "method": "machine_google",
+    "value": "परिमाण: %s"
+  },
+  "Discard Report and Comments?": {
+    "method": "machine_google",
+    "value": "अहवाल आणि टिप्पण्या टाकून द्यायची?"
+  },
+  "Edit Draft Chat Report?": {
+    "method": "machine_google",
+    "value": "मसुदा चॅट अहवाल संपादित करायचा?"
+  },
+  "Edit Invite Code": {
+    "method": "machine_google",
+    "value": "आमंत्रण कोड संपादित करा"
+  },
+  "Eject": {
+    "method": "machine_google",
+    "value": "बाहेर काढा"
+  },
+  "End Call": {
+    "method": "machine_google",
+    "value": "कॉल समाप्त करा"
+  },
+  "Enter 2": {
+    "method": "machine_google",
+    "value": "2 प्रविष्ट करा"
+  },
+  "Enter Join Code": {
+    "method": "machine_google",
+    "value": "जॉईन कोड एंटर करा"
+  },
+  "Enter Profile Name": {
+    "method": "machine_google",
+    "value": "प्रोफाइल नाव प्रविष्ट करा"
+  },
+  "Enter a valid profile name before sending a friend request": {
+    "method": "machine_google",
+    "value": "फ्रेंड रिक्वेस्ट पाठवण्यापूर्वी वैध प्रोफाइल नाव एंटर करा"
+  },
+  "Enter join code": {
+    "method": "machine_google",
+    "value": "जॉईन कोड एंटर करा"
+  },
+  "Errors in the currently selected data pack(s) prevented the world from loading.\nYou can either try to load it with only the vanilla data pack (\"Safe Mode\"), or go back to the title screen and fix it manually.": {
+    "method": "machine_google",
+    "value": "सध्या निवडलेल्या डेटा पॅकमधील त्रुटींनी जगाला लोड होण्यापासून रोखले आहे.\nतुम्ही एकतर फक्त व्हॅनिला डेटा पॅक (\"सेफ मोड\") सह लोड करण्याचा प्रयत्न करू शकता किंवा शीर्षक स्क्रीनवर परत जा आणि व्यक्तिचलितपणे त्याचे निराकरण करू शकता."
+  },
+  "Establishing connection...": {
+    "method": "machine_google",
+    "value": "कनेक्शन स्थापित करत आहे..."
+  },
+  "ExSel": {
+    "method": "machine_google",
+    "value": "ExSel"
+  },
+  "Exclusive Fullscreen Mode": {
+    "method": "machine_google",
+    "value": "अनन्य पूर्णस्क्रीन मोड"
+  },
+  "Execute": {
+    "method": "machine_google",
+    "value": "अंमलात आणा"
+  },
+  "Expected %s to be in between %s and %s: was %s": {
+    "method": "machine_google",
+    "value": "%s %s आणि %s मधील असणे अपेक्षित आहे: %s होते"
+  },
+  "Experimental. Might reduce performance or cause instability on some systems.": {
+    "method": "machine_google",
+    "value": "प्रायोगिक. कार्यप्रदर्शन कमी करू शकते किंवा काही सिस्टमवर अस्थिरता निर्माण करू शकते."
+  },
+  "Expiration Date": {
+    "method": "machine_google",
+    "value": "कालबाह्यता तारीख"
+  },
+  "Expires: %s": {
+    "method": "machine_google",
+    "value": "कालबाह्य: %s"
+  },
+  "Explore the rotating library of minigames, adventure maps and more.": {
+    "method": "machine_google",
+    "value": "मिनीगेम्स, साहसी नकाशे आणि अधिकची फिरणारी लायब्ररी एक्सप्लोर करा."
+  },
+  "Failed to load world in Safe Mode": {
+    "method": "machine_google",
+    "value": "सुरक्षित मोडमध्ये जग लोड करण्यात अयशस्वी"
+  },
+  "Failed to perform this friend action. It may be due to the account's privacy settings.": {
+    "method": "machine_google",
+    "value": "ही मित्र क्रिया करण्यात अयशस्वी. हे खात्याच्या गोपनीयता सेटिंग्जमुळे असू शकते."
+  },
+  "Failure Stage": {
+    "method": "machine_google",
+    "value": "अपयशाचा टप्पा"
+  },
+  "Fast Forward": {
+    "method": "machine_google",
+    "value": "फास्ट फॉरवर्ड"
+  },
+  "Find": {
+    "method": "machine_google",
+    "value": "शोधा"
+  },
+  "Flat All Dimensions": {
+    "method": "machine_google",
+    "value": "सपाट सर्व परिमाणे"
+  },
+  "Flight Duration: %s": {
+    "method": "machine_google",
+    "value": "फ्लाइट कालावधी: %s"
+  },
+  "Flower Forest Abandoned Camp Map": {
+    "method": "machine_google",
+    "value": "फ्लॉवर फॉरेस्ट बेबंद कॅम्प नकाशा"
+  },
+  "Flower Forest Camp Map": {
+    "method": "machine_google",
+    "value": "फ्लॉवर फॉरेस्ट कॅम्प नकाशा"
+  },
+  "Fps Charts": {
+    "method": "machine_google",
+    "value": "Fps चार्ट"
+  },
+  "Frame Rate Samples (fps)": {
+    "method": "machine_google",
+    "value": "फ्रेम रेट नमुने (fps)"
+  },
+  "Free 30-day trial!": {
+    "method": "machine_google",
+    "value": "विनामूल्य 30-दिवसांची चाचणी!"
+  },
+  "Free trial": {
+    "method": "machine_google",
+    "value": "मोफत चाचणी"
+  },
+  "Friction Modifier": {
+    "method": "machine_google",
+    "value": "घर्षण सुधारक"
+  },
+  "Friend %s": {
+    "method": "machine_google",
+    "value": "मित्र %s"
+  },
+  "Friend request sent to %s": {
+    "method": "machine_google",
+    "value": "%s ला मित्र विनंती पाठवली"
+  },
+  "Friends": {
+    "method": "machine_google",
+    "value": "मित्रांनो"
+  },
+  "Friends List": {
+    "method": "machine_google",
+    "value": "मित्रांची यादी"
+  },
+  "Friends List is not working right now.\n\nCheck your internet connection and try again.": {
+    "method": "machine_google",
+    "value": "मित्रांची यादी सध्या काम करत नाही.\n\nतुमचे इंटरनेट कनेक्शन तपासा आणि पुन्हा प्रयत्न करा."
+  },
+  "Friends List is not working right now.\n\nTry again later.": {
+    "method": "machine_google",
+    "value": "मित्रांची यादी सध्या काम करत नाही.\n\nनंतर पुन्हा प्रयत्न करा."
+  },
+  "Friends Screen": {
+    "method": "machine_google",
+    "value": "मित्र स्क्रीन"
+  },
+  "Friends can see what you're playing.": {
+    "method": "machine_google",
+    "value": "तुम्ही काय खेळत आहात ते मित्र पाहू शकतात."
+  },
+  "Friends can see when you're online, but not what you're playing.": {
+    "method": "machine_google",
+    "value": "तुम्ही ऑनलाइन असताना मित्र पाहू शकतात, पण तुम्ही काय खेळत आहात ते नाही."
+  },
+  "Friends online can join.": {
+    "method": "machine_google",
+    "value": "ऑनलाइन मित्र सामील होऊ शकतात."
+  },
+  "Friends will always see you as offline.": {
+    "method": "machine_google",
+    "value": "मित्र तुम्हाला नेहमी ऑफलाइन म्हणून पाहतील."
+  },
+  "Friends you add will be listed here.\n\nManage online safety with your %s.": {
+    "method": "machine_google",
+    "value": "तुम्ही जोडलेले मित्र येथे सूचीबद्ध केले जातील.\n\nतुमच्या %s सह ऑनलाइन सुरक्षितता व्यवस्थापित करा."
+  },
+  "Front Text:": {
+    "method": "machine_google",
+    "value": "समोरचा मजकूर:"
+  },
+  "Game Rule Changes": {
+    "method": "machine_google",
+    "value": "खेळ नियम बदल"
+  },
+  "Game rule %s is already set to %s": {
+    "method": "machine_google",
+    "value": "गेम नियम %s आधीच %s वर सेट केला आहे"
+  },
+  "Game rule %s is currently set to %s": {
+    "method": "machine_google",
+    "value": "गेम नियम %s सध्या %s वर सेट आहे"
+  },
+  "Game rule %s is now set to %s": {
+    "method": "machine_google",
+    "value": "गेम नियम %s आता %s वर सेट केला आहे"
+  },
+  "Gets up from Cushion": {
+    "method": "machine_google",
+    "value": "कुशनवरून उठतो"
+  },
+  "Go to Your Profile Settings": {
+    "method": "machine_google",
+    "value": "तुमच्या प्रोफाइल सेटिंग्ज वर जा"
+  },
+  "Graphics API": {
+    "method": "machine_google",
+    "value": "ग्राफिक्स API"
+  },
+  "Graphics Capabilities": {
+    "method": "machine_google",
+    "value": "ग्राफिक्स क्षमता"
+  },
+  "Gray Concrete Slab": {
+    "method": "machine_google",
+    "value": "राखाडी काँक्रीट स्लॅब"
+  },
+  "Gray Concrete Stairs": {
+    "method": "machine_google",
+    "value": "राखाडी काँक्रीट पायऱ्या"
+  },
+  "Gray Cushion": {
+    "method": "machine_google",
+    "value": "राखाडी उशी"
+  },
+  "Gray Wool Slab": {
+    "method": "machine_google",
+    "value": "राखाडी लोकर स्लॅब"
+  },
+  "Gray Wool Stairs": {
+    "method": "machine_google",
+    "value": "राखाडी लोकर पायऱ्या"
+  },
+  "Green Concrete Slab": {
+    "method": "machine_google",
+    "value": "ग्रीन काँक्रिट स्लॅब"
+  },
+  "Green Concrete Stairs": {
+    "method": "machine_google",
+    "value": "हिरव्या काँक्रीटच्या पायऱ्या"
+  },
+  "Green Cushion": {
+    "method": "machine_google",
+    "value": "हिरवी उशी"
+  },
+  "Green Wool Slab": {
+    "method": "machine_google",
+    "value": "हिरव्या लोकर स्लॅब"
+  },
+  "Green Wool Stairs": {
+    "method": "machine_google",
+    "value": "हिरव्या लोकर पायऱ्या"
+  },
+  "Growing the world border to %s block(s) wide over %s second(s)": {
+    "method": "machine_google",
+    "value": "जागतिक सीमा %s ब्लॉक(s) पर्यंत वाढवत %s सेकंदांपेक्षा जास्त रुंद"
+  },
+  "Have a Sulfur Cube absorb a TNT block": {
+    "method": "machine_google",
+    "value": "सल्फर क्यूबला टीएनटी ब्लॉक शोषून घ्या"
+  },
+  "Help": {
+    "method": "machine_google",
+    "value": "मदत करा"
+  },
+  "I Know What I'm Doing!": {
+    "method": "machine_google",
+    "value": "मला माहित आहे मी काय करत आहे!"
+  },
+  "ID #%s": {
+    "method": "machine_google",
+    "value": "आयडी #%s"
+  },
+  "If you leave this Realm, you won't see it unless you are invited again": {
+    "method": "machine_google",
+    "value": "तुम्ही हे क्षेत्र सोडल्यास, तुम्हाला पुन्हा आमंत्रित केल्याशिवाय तुम्हाला ते दिसणार नाही"
+  },
+  "Improved transparency: disabled": {
+    "method": "machine_google",
+    "value": "सुधारित पारदर्शकता: अक्षम"
+  },
+  "Improved transparency: enabled": {
+    "method": "machine_google",
+    "value": "सुधारित पारदर्शकता: सक्षम"
+  },
+  "In-Game Notification": {
+    "method": "machine_google",
+    "value": "इन-गेम सूचना"
+  },
+  "Incoming friend request from %s": {
+    "method": "machine_google",
+    "value": "%s कडून येणारी मैत्री विनंती"
+  },
+  "Interactive Connectivity Establishment (ICE) Connect Time (Milliseconds)": {
+    "method": "machine_google",
+    "value": "इंटरएक्टिव्ह कनेक्टिव्हिटी एस्टॅब्लिशमेंट (ICE) कनेक्ट वेळ (मिलीसेकंद)"
+  },
+  "Interactive Connectivity Establishment (ICE) Path": {
+    "method": "machine_google",
+    "value": "इंटरएक्टिव्ह कनेक्टिव्हिटी एस्टॅब्लिशमेंट (ICE) पथ"
+  },
+  "International 1": {
+    "method": "machine_google",
+    "value": "आंतरराष्ट्रीय १"
+  },
+  "International 2": {
+    "method": "machine_google",
+    "value": "आंतरराष्ट्रीय 2"
+  },
+  "International 3": {
+    "method": "machine_google",
+    "value": "आंतरराष्ट्रीय 3"
+  },
+  "International 4": {
+    "method": "machine_google",
+    "value": "आंतरराष्ट्रीय ४"
+  },
+  "International 5": {
+    "method": "machine_google",
+    "value": "आंतरराष्ट्रीय 5"
+  },
+  "International 6": {
+    "method": "machine_google",
+    "value": "आंतरराष्ट्रीय 6"
+  },
+  "International 7": {
+    "method": "machine_google",
+    "value": "आंतरराष्ट्रीय 7"
+  },
+  "International 8": {
+    "method": "machine_google",
+    "value": "आंतरराष्ट्रीय 8"
+  },
+  "International 9": {
+    "method": "machine_google",
+    "value": "आंतरराष्ट्रीय ९"
+  },
+  "Invalid ID or tag": {
+    "method": "machine_google",
+    "value": "अवैध आयडी किंवा टॅग"
+  },
+  "Invalid token supplied. Restart your game and launcher, then try again.": {
+    "method": "machine_google",
+    "value": "अवैध टोकन दिले. तुमचा गेम आणि लाँचर रीस्टार्ट करा, नंतर पुन्हा प्रयत्न करा."
+  },
+  "Invalid value '%s'": {
+    "method": "machine_google",
+    "value": "अवैध मूल्य '%s'"
+  },
+  "Invitation to %s to join this world has expired.": {
+    "method": "machine_google",
+    "value": "या जगात सामील होण्यासाठी %s ला दिलेले आमंत्रण कालबाह्य झाले आहे."
+  },
+  "Invitation to join %s's world has expired.": {
+    "method": "machine_google",
+    "value": "%s च्या जगामध्ये सामील होण्याचे आमंत्रण कालबाह्य झाले आहे."
+  },
+  "Invite": {
+    "method": "machine_google",
+    "value": "आमंत्रित करा"
+  },
+  "Invite Codes": {
+    "method": "machine_google",
+    "value": "आमंत्रण कोड"
+  },
+  "Invite Codes (%s/%s)": {
+    "method": "machine_google",
+    "value": "आमंत्रण कोड (%s/%s)"
+  },
+  "Isn't It Iron Pick?": {
+    "method": "machine_google",
+    "value": "तो लोखंडी पिक नाही का?"
+  },
+  "It is not possible to connect right now.\nTry again later.": {
+    "method": "machine_google",
+    "value": "सध्या कनेक्ट करणे शक्य नाही.\nनंतर पुन्हा प्रयत्न करा."
+  },
+  "Join Code": {
+    "method": "machine_google",
+    "value": "कोडमध्ये सामील व्हा"
+  },
+  "Join Realm": {
+    "method": "machine_google",
+    "value": "Realm मध्ये सामील व्हा"
+  },
+  "Jungle Pyramid Map": {
+    "method": "machine_google",
+    "value": "जंगल पिरॅमिड नकाशा"
+  },
+  "Jungle Temple Map": {
+    "method": "machine_google",
+    "value": "जंगल मंदिर नकाशा"
+  },
+  "Keypad !": {
+    "method": "machine_google",
+    "value": "कीपॅड!"
+  },
+  "Keypad #": {
+    "method": "machine_google",
+    "value": "कीपॅड #"
+  },
+  "Keypad %": {
+    "method": "machine_google",
+    "value": "कीपॅड %"
+  },
+  "Keypad &": {
+    "method": "machine_google",
+    "value": "कीपॅड आणि"
+  },
+  "Keypad &&": {
+    "method": "machine_google",
+    "value": "कीपॅड &&"
+  },
+  "Keypad (": {
+    "method": "machine_google",
+    "value": "कीपॅड ("
+  },
+  "Keypad )": {
+    "method": "machine_google",
+    "value": "कीपॅड)"
+  },
+  "Keypad ,": {
+    "method": "machine_google",
+    "value": "कीपॅड,"
+  },
+  "Keypad .": {
+    "method": "machine_google",
+    "value": "कीपॅड."
+  },
+  "Keypad 00": {
+    "method": "machine_google",
+    "value": "कीपॅड 00"
+  },
+  "Keypad 000": {
+    "method": "machine_google",
+    "value": "कीपॅड 000"
+  },
+  "Keypad :": {
+    "method": "machine_google",
+    "value": "कीपॅड:"
+  },
+  "Keypad <": {
+    "method": "machine_google",
+    "value": "कीपॅड <"
+  },
+  "Keypad = (AS400)": {
+    "method": "machine_google",
+    "value": "कीपॅड = (AS400)"
+  },
+  "Keypad >": {
+    "method": "machine_google",
+    "value": "कीपॅड >"
+  },
+  "Keypad @": {
+    "method": "machine_google",
+    "value": "कीपॅड @"
+  },
+  "Keypad A": {
+    "method": "machine_google",
+    "value": "कीपॅड ए"
+  },
+  "Keypad B": {
+    "method": "machine_google",
+    "value": "कीपॅड बी"
+  },
+  "Keypad Backspace": {
+    "method": "machine_google",
+    "value": "कीपॅड बॅकस्पेस"
+  },
+  "Keypad Binary": {
+    "method": "machine_google",
+    "value": "कीपॅड बायनरी"
+  },
+  "Keypad C": {
+    "method": "machine_google",
+    "value": "कीपॅड सी"
+  },
+  "Keypad Clear": {
+    "method": "machine_google",
+    "value": "कीपॅड साफ करा"
+  },
+  "Keypad Clear Entry": {
+    "method": "machine_google",
+    "value": "कीपॅड क्लिअर एंट्री"
+  },
+  "Keypad D": {
+    "method": "machine_google",
+    "value": "कीपॅड डी"
+  },
+  "Keypad E": {
+    "method": "machine_google",
+    "value": "कीपॅड ई"
+  },
+  "Keypad F": {
+    "method": "machine_google",
+    "value": "कीपॅड एफ"
+  },
+  "Keypad Hexadecimal": {
+    "method": "machine_google",
+    "value": "कीपॅड हेक्साडेसिमल"
+  },
+  "Keypad M*": {
+    "method": "machine_google",
+    "value": "कीपॅड एम*"
+  },
+  "Keypad M+": {
+    "method": "machine_google",
+    "value": "कीपॅड M+"
+  },
+  "Keypad M-": {
+    "method": "machine_google",
+    "value": "कीपॅड एम-"
+  },
+  "Keypad M/": {
+    "method": "machine_google",
+    "value": "कीपॅड M/"
+  },
+  "Keypad MC": {
+    "method": "machine_google",
+    "value": "कीपॅड एमसी"
+  },
+  "Keypad MR": {
+    "method": "machine_google",
+    "value": "कीपॅड MR"
+  },
+  "Keypad MS": {
+    "method": "machine_google",
+    "value": "कीपॅड एमएस"
+  },
+  "Keypad Octal": {
+    "method": "machine_google",
+    "value": "कीपॅड ऑक्टल"
+  },
+  "Keypad Space": {
+    "method": "machine_google",
+    "value": "कीपॅड स्पेस"
+  },
+  "Keypad Tab": {
+    "method": "machine_google",
+    "value": "कीपॅड टॅब"
+  },
+  "Keypad XOR": {
+    "method": "machine_google",
+    "value": "कीपॅड XOR"
+  },
+  "Keypad ^": {
+    "method": "machine_google",
+    "value": "कीपॅड ^"
+  },
+  "Keypad {": {
+    "method": "machine_google",
+    "value": "कीपॅड {"
+  },
+  "Keypad |": {
+    "method": "machine_google",
+    "value": "कीपॅड |"
+  },
+  "Keypad ||": {
+    "method": "machine_google",
+    "value": "कीपॅड ||"
+  },
+  "Keypad }": {
+    "method": "machine_google",
+    "value": "कीपॅड }"
+  },
+  "Keypad ±": {
+    "method": "machine_google",
+    "value": "कीपॅड ±"
+  },
+  "Knowing the overall performance profile of Minecraft helps us tune and optimize the game for a wide range of machine specifications and operating systems.\nGame version is included to help us compare the performance profile for new versions of Minecraft.": {
+    "method": "machine_google",
+    "value": "Minecraft चे एकूण कार्यप्रदर्शन प्रोफाइल जाणून घेतल्याने आम्हाला मशीन वैशिष्ट्य आणि ऑपरेटिंग सिस्टमच्या विस्तृत श्रेणीसाठी गेम ट्यून आणि ऑप्टिमाइझ करण्यात मदत होते.\nMinecraft च्या नवीन आवृत्त्यांसाठी कार्यप्रदर्शन प्रोफाइलची तुलना करण्यात मदत करण्यासाठी गेम आवृत्ती समाविष्ट केली आहे."
+  },
+  "LAN": {
+    "method": "machine_google",
+    "value": "LAN"
+  },
+  "LAN Options": {
+    "method": "machine_google",
+    "value": "LAN पर्याय"
+  },
+  "Language 1": {
+    "method": "machine_google",
+    "value": "भाषा १"
+  },
+  "Language 2": {
+    "method": "machine_google",
+    "value": "भाषा २"
+  },
+  "Language 3": {
+    "method": "machine_google",
+    "value": "भाषा ३"
+  },
+  "Language 4": {
+    "method": "machine_google",
+    "value": "भाषा ४"
+  },
+  "Language 5": {
+    "method": "machine_google",
+    "value": "भाषा ५"
+  },
+  "Language 6": {
+    "method": "machine_google",
+    "value": "भाषा 6"
+  },
+  "Language 7": {
+    "method": "machine_google",
+    "value": "भाषा 7"
+  },
+  "Language 8": {
+    "method": "machine_google",
+    "value": "भाषा 8"
+  },
+  "Language 9": {
+    "method": "machine_google",
+    "value": "भाषा ९"
+  },
+  "Language translations may not be 100%% accurate.": {
+    "method": "machine_google",
+    "value": "भाषा भाषांतरे 100%% अचूक असू शकत नाहीत."
+  },
+  "Leaves rustling": {
+    "method": "machine_google",
+    "value": "पाने गंजतात"
+  },
+  "Left Command": {
+    "method": "machine_google",
+    "value": "लेफ्ट कमांड"
+  },
+  "Left Meta": {
+    "method": "machine_google",
+    "value": "डावा मेटा"
+  },
+  "Left Option": {
+    "method": "machine_google",
+    "value": "डावा पर्याय"
+  },
+  "Left Windows": {
+    "method": "machine_google",
+    "value": "डाव्या विंडोज"
+  },
+  "Left click to follow the link": {
+    "method": "machine_google",
+    "value": "लिंक फॉलो करण्यासाठी लेफ्ट क्लिक करा"
+  },
+  "Light Blue Concrete Slab": {
+    "method": "machine_google",
+    "value": "हलका निळा कंक्रीट स्लॅब"
+  },
+  "Light Blue Concrete Stairs": {
+    "method": "machine_google",
+    "value": "हलक्या निळ्या काँक्रीटच्या पायऱ्या"
+  },
+  "Light Blue Cushion": {
+    "method": "machine_google",
+    "value": "हलका निळा उशी"
+  },
+  "Light Blue Wool Slab": {
+    "method": "machine_google",
+    "value": "हलका निळा लोकर स्लॅब"
+  },
+  "Light Blue Wool Stairs": {
+    "method": "machine_google",
+    "value": "हलक्या निळ्या लोकरीच्या पायऱ्या"
+  },
+  "Light Gray Concrete Slab": {
+    "method": "machine_google",
+    "value": "हलका राखाडी कंक्रीट स्लॅब"
+  },
+  "Light Gray Concrete Stairs": {
+    "method": "machine_google",
+    "value": "हलक्या राखाडी काँक्रीटच्या पायऱ्या"
+  },
+  "Light Gray Cushion": {
+    "method": "machine_google",
+    "value": "हलकी राखाडी उशी"
+  },
+  "Light Gray Wool Slab": {
+    "method": "machine_google",
+    "value": "हलका राखाडी लोकर स्लॅब"
+  },
+  "Light Gray Wool Stairs": {
+    "method": "machine_google",
+    "value": "हलक्या राखाडी लोकरीच्या पायऱ्या"
+  },
+  "Lime Concrete Slab": {
+    "method": "machine_google",
+    "value": "चुना कंक्रीट स्लॅब"
+  },
+  "Lime Concrete Stairs": {
+    "method": "machine_google",
+    "value": "चुना काँक्रीट पायऱ्या"
+  },
+  "Lime Cushion": {
+    "method": "machine_google",
+    "value": "लिंबाची उशी"
+  },
+  "Lime Wool Slab": {
+    "method": "machine_google",
+    "value": "चुना लोकर स्लॅब"
+  },
+  "Lime Wool Stairs": {
+    "method": "machine_google",
+    "value": "चुना लोकर पायऱ्या"
+  },
+  "Limited": {
+    "method": "machine_google",
+    "value": "मर्यादित"
+  },
+  "Loading Friends List...": {
+    "method": "machine_google",
+    "value": "मित्रांची यादी लोड करत आहे..."
+  },
+  "Loading invite codes": {
+    "method": "machine_google",
+    "value": "आमंत्रण कोड लोड करत आहे"
+  },
+  "Loading requests...": {
+    "method": "machine_google",
+    "value": "विनंत्या लोड करत आहे..."
+  },
+  "Loading translations failed": {
+    "method": "machine_google",
+    "value": "भाषांतरे लोड करणे अयशस्वी झाले"
+  },
+  "Local Candidate Type": {
+    "method": "machine_google",
+    "value": "स्थानिक उमेदवाराचा प्रकार"
+  },
+  "Local game is already hosted on port %s": {
+    "method": "machine_google",
+    "value": "स्थानिक गेम आधीच पोर्ट %s वर होस्ट केलेला आहे"
+  },
+  "Magenta Concrete Slab": {
+    "method": "machine_google",
+    "value": "किरमिजी कंक्रीट स्लॅब"
+  },
+  "Magenta Concrete Stairs": {
+    "method": "machine_google",
+    "value": "किरमिजी कंक्रीट पायऱ्या"
+  },
+  "Magenta Cushion": {
+    "method": "machine_google",
+    "value": "किरमिजी उशी"
+  },
+  "Magenta Wool Slab": {
+    "method": "machine_google",
+    "value": "किरमिजी लोकर स्लॅब"
+  },
+  "Magenta Wool Stairs": {
+    "method": "machine_google",
+    "value": "किरमिजी लोकर पायऱ्या"
+  },
+  "Manage online safety with your %s": {
+    "method": "machine_google",
+    "value": "तुमच्या %s सह ऑनलाइन सुरक्षितता व्यवस्थापित करा"
+  },
+  "Media Pause": {
+    "method": "machine_google",
+    "value": "मीडिया पॉज"
+  },
+  "Media Play": {
+    "method": "machine_google",
+    "value": "मीडिया प्ले"
+  },
+  "Media Select": {
+    "method": "machine_google",
+    "value": "मीडिया निवडा"
+  },
+  "Media Stop": {
+    "method": "machine_google",
+    "value": "मीडिया स्टॉप"
+  },
+  "Menu/Dock Visibility": {
+    "method": "machine_google",
+    "value": "मेनू/डॉक दृश्यमानता"
+  },
+  "Mexico": {
+    "method": "machine_google",
+    "value": "मेक्सिको"
+  },
+  "Microsoft account": {
+    "method": "machine_google",
+    "value": "मायक्रोसॉफ्ट खाते"
+  },
+  "Mineshaft Map": {
+    "method": "machine_google",
+    "value": "माइनशाफ्ट नकाशा"
+  },
+  "Minigames - Free creator content": {
+    "method": "machine_google",
+    "value": "मिनीगेम्स - विनामूल्य निर्माता सामग्री"
+  },
+  "Modified %s slot(s) at %s, %s, %s": {
+    "method": "machine_google",
+    "value": "%s, %s, %s वर %s स्लॉट(s) सुधारित केले"
+  },
+  "Modified %s slot(s) on %s": {
+    "method": "machine_google",
+    "value": "%s वर %s स्लॉट(चे) सुधारित केले"
+  },
+  "Modified slot(s) on %s entities": {
+    "method": "machine_google",
+    "value": "%s घटकांवर सुधारित स्लॉट"
+  },
+  "Multiplayer (Online)": {
+    "method": "machine_google",
+    "value": "मल्टीप्लेअर (ऑनलाइन)"
+  },
+  "Multiplayer game is now unpublished": {
+    "method": "machine_google",
+    "value": "मल्टीप्लेअर गेम आता अप्रकाशित आहे"
+  },
+  "Mute": {
+    "method": "machine_google",
+    "value": "नि:शब्द करा"
+  },
+  "My profile name: ": {
+    "method": "machine_google",
+    "value": "माझे प्रोफाइल नाव:"
+  },
+  "Name Tag Distance": {
+    "method": "machine_google",
+    "value": "नाव टॅग अंतर"
+  },
+  "Name Tag Score Distance": {
+    "method": "machine_google",
+    "value": "नाव टॅग स्कोअर अंतर"
+  },
+  "Nautilus bubbles": {
+    "method": "machine_google",
+    "value": "नॉटिलस फुगे"
+  },
+  "Network": {
+    "method": "machine_google",
+    "value": "नेटवर्क"
+  },
+  "New": {
+    "method": "machine_google",
+    "value": "नवीन"
+  },
+  "News & Invites": {
+    "method": "machine_google",
+    "value": "बातम्या आणि आमंत्रणे"
+  },
+  "Next Track": {
+    "method": "machine_google",
+    "value": "पुढील ट्रॅक"
+  },
+  "No biome entries were changed": {
+    "method": "machine_google",
+    "value": "बायोम नोंदी बदलल्या नाहीत"
+  },
+  "No multiplayer game published": {
+    "method": "machine_google",
+    "value": "कोणताही मल्टीप्लेअर गेम प्रकाशित केला नाही"
+  },
+  "No pending friend requests": {
+    "method": "machine_google",
+    "value": "कोणत्याही प्रलंबित मित्र विनंत्या नाहीत"
+  },
+  "No schedules with ID %s": {
+    "method": "machine_google",
+    "value": "आयडी %s सह कोणतेही वेळापत्रक नाही"
+  },
+  "No targets accepted item %s into specified slots": {
+    "method": "machine_google",
+    "value": "निर्दिष्ट स्लॉटमध्ये %s आयटम स्वीकारलेले कोणतेही लक्ष्य नाही"
+  },
+  "No targets accepted items into specified slots": {
+    "method": "machine_google",
+    "value": "निर्दिष्ट स्लॉटमध्ये कोणतेही लक्ष्य स्वीकारलेले आयटम नाहीत"
+  },
+  "Nobody can join.": {
+    "method": "machine_google",
+    "value": "कोणीही सामील होऊ शकत नाही."
+  },
+  "Not visible when debug info is reduced.": {
+    "method": "machine_google",
+    "value": "डीबग माहिती कमी केल्यावर दृश्यमान नाही."
+  },
+  "Nothing changed. That's already the maximum of this bossbar": {
+    "method": "machine_google",
+    "value": "काहीही बदलले नाही. ते आधीच या बॉसबारची कमाल आहे"
+  },
+  "Nothing changed. The player is already an operator": {
+    "method": "machine_google",
+    "value": "काहीही बदलले नाही. खेळाडू आधीच ऑपरेटर आहे"
+  },
+  "Noxious gas appears": {
+    "method": "machine_google",
+    "value": "विषारी वायू दिसून येतो"
+  },
+  "Number provider returned invalid value (%s)": {
+    "method": "machine_google",
+    "value": "नंबर प्रदात्याने अवैध मूल्य परत केले (%s)"
+  },
+  "Number provider returned value %s": {
+    "method": "machine_google",
+    "value": "क्रमांक प्रदात्याने %s मूल्य परत केले"
+  },
+  "Number provider returned value %s (rounded to %s)": {
+    "method": "machine_google",
+    "value": "क्रमांक प्रदात्याने %s मूल्य परत केले (%s पर्यंत पूर्ण केले)"
+  },
+  "Ocean Monument Map": {
+    "method": "machine_google",
+    "value": "महासागर स्मारक नकाशा"
+  },
+  "Online (LAN)": {
+    "method": "machine_google",
+    "value": "ऑनलाइन (LAN)"
+  },
+  "Online (Realm)": {
+    "method": "machine_google",
+    "value": "ऑनलाइन (क्षेत्र)"
+  },
+  "Online (Server)": {
+    "method": "machine_google",
+    "value": "ऑनलाइन (सर्व्हर)"
+  },
+  "Online (World)": {
+    "method": "machine_google",
+    "value": "ऑनलाइन (जागतिक)"
+  },
+  "Online game hosted": {
+    "method": "machine_google",
+    "value": "ऑनलाइन गेम होस्ट केला"
+  },
+  "Online game is already hosted": {
+    "method": "machine_google",
+    "value": "ऑनलाइन गेम आधीच होस्ट केला आहे"
+  },
+  "Open this link to manage your privacy and online safety settings.": {
+    "method": "machine_google",
+    "value": "तुमची गोपनीयता आणि ऑनलाइन सुरक्षा सेटिंग्ज व्यवस्थापित करण्यासाठी ही लिंक उघडा."
+  },
+  "Oper": {
+    "method": "machine_google",
+    "value": "ऑपरेशन"
+  },
+  "Orange Concrete Slab": {
+    "method": "machine_google",
+    "value": "ऑरेंज काँक्रिट स्लॅब"
+  },
+  "Orange Concrete Stairs": {
+    "method": "machine_google",
+    "value": "नारिंगी काँक्रीट पायऱ्या"
+  },
+  "Orange Cushion": {
+    "method": "machine_google",
+    "value": "केशरी उशी"
+  },
+  "Orange Poplar Leaves": {
+    "method": "machine_google",
+    "value": "ऑरेंज पोप्लर पाने"
+  },
+  "Orange Wool Slab": {
+    "method": "machine_google",
+    "value": "नारिंगी लोकर स्लॅब"
+  },
+  "Orange Wool Stairs": {
+    "method": "machine_google",
+    "value": "केशरी लोकर पायऱ्या"
+  },
+  "Other players can set their own game mode through commands.": {
+    "method": "machine_google",
+    "value": "इतर खेळाडू कमांडद्वारे त्यांचा स्वतःचा गेम मोड सेट करू शकतात."
+  },
+  "Other players will be forced to play the world's default game mode.": {
+    "method": "machine_google",
+    "value": "इतर खेळाडूंना जगातील डीफॉल्ट गेम मोड खेळण्यास भाग पाडले जाईल."
+  },
+  "Other players will retain their current game mode regardless of the world's default game mode.": {
+    "method": "machine_google",
+    "value": "जगातील डीफॉल्ट गेम मोडकडे दुर्लक्ष करून इतर खेळाडू त्यांचा वर्तमान गेम मोड कायम ठेवतील."
+  },
+  "Out": {
+    "method": "machine_google",
+    "value": "बाहेर"
+  },
+  "Outgoing friend request to %s": {
+    "method": "machine_google",
+    "value": "%s ला आउटगोइंग फ्रेंड रिक्वेस्ट"
+  },
+  "Overrides the debug overlay with a different GUI scale than the rest of the game": {
+    "method": "machine_google",
+    "value": "उर्वरित गेमपेक्षा वेगळ्या GUI स्केलसह डीबग आच्छादन ओव्हरराइड करते"
+  },
+  "Pale Garden Abandoned Camp Map": {
+    "method": "machine_google",
+    "value": "पॅले गार्डन बेबंद कॅम्प नकाशा"
+  },
+  "Pale Garden Camp Map": {
+    "method": "machine_google",
+    "value": "फिकट गुलाबी गार्डन कॅम्प नकाशा"
+  },
+  "Paste": {
+    "method": "machine_google",
+    "value": "पेस्ट करा"
+  },
+  "Peer-to-peer Connection": {
+    "method": "machine_google",
+    "value": "पीअर-टू-पीअर कनेक्शन"
+  },
+  "Personal Game Mode": {
+    "method": "machine_google",
+    "value": "वैयक्तिक गेम मोड"
+  },
+  "Personal server": {
+    "method": "machine_google",
+    "value": "वैयक्तिक सर्व्हर"
+  },
+  "Pink Concrete Slab": {
+    "method": "machine_google",
+    "value": "गुलाबी कंक्रीट स्लॅब"
+  },
+  "Pink Concrete Stairs": {
+    "method": "machine_google",
+    "value": "गुलाबी काँक्रीट पायऱ्या"
+  },
+  "Pink Cushion": {
+    "method": "machine_google",
+    "value": "गुलाबी उशी"
+  },
+  "Pink Wool Slab": {
+    "method": "machine_google",
+    "value": "गुलाबी लोकर स्लॅब"
+  },
+  "Pink Wool Stairs": {
+    "method": "machine_google",
+    "value": "गुलाबी लोकर पायऱ्या"
+  },
+  "Placed feature at %s, %s, %s": {
+    "method": "machine_google",
+    "value": "%s, %s, %s वर वैशिष्ट्य ठेवले"
+  },
+  "Play/Pause": {
+    "method": "machine_google",
+    "value": "खेळा/विराम द्या"
+  },
+  "Player %s does not have any post effects": {
+    "method": "machine_google",
+    "value": "प्लेअर %s वर कोणतेही पोस्ट इफेक्ट नाहीत"
+  },
+  "Player %s has %s post effects: %s": {
+    "method": "machine_google",
+    "value": "प्लेअर %s मध्ये %s पोस्ट इफेक्ट्स आहेत: %s"
+  },
+  "Player already has the specified post effect": {
+    "method": "machine_google",
+    "value": "प्लेअरमध्ये आधीच निर्दिष्ट पोस्ट प्रभाव आहे"
+  },
+  "Player coordinates: [%s, %s, %s] in %s": {
+    "method": "machine_google",
+    "value": "खेळाडू समन्वय: %s मध्ये [%s, %s, %s]"
+  },
+  "Player does not have any post effects to remove": {
+    "method": "machine_google",
+    "value": "प्लेअरमध्ये काढण्यासाठी कोणतेही पोस्ट इफेक्ट नाहीत"
+  },
+  "Player does not have the specified post effect": {
+    "method": "machine_google",
+    "value": "प्लेअरमध्ये निर्दिष्ट पोस्ट प्रभाव नाही"
+  },
+  "Player isn't reachable": {
+    "method": "machine_google",
+    "value": "खेळाडू पोहोचू शकत नाही"
+  },
+  "Player's Nether Portal delay in creative mode": {
+    "method": "machine_google",
+    "value": "प्लेअरच्या नेदर पोर्टलला क्रिएटिव्ह मोडमध्ये विलंब होतो"
+  },
+  "Player's Nether Portal delay in non-creative mode": {
+    "method": "machine_google",
+    "value": "नॉन-क्रिएटिव्ह मोडमध्ये प्लेअरच्या नेदर पोर्टलला विलंब"
+  },
+  "Players on the same network can join.": {
+    "method": "machine_google",
+    "value": "समान नेटवर्कवरील खेळाडू सामील होऊ शकतात."
+  },
+  "Polished Cinnabar": {
+    "method": "machine_google",
+    "value": "पॉलिश Cinnabar"
+  },
+  "Polished Cinnabar Slab": {
+    "method": "machine_google",
+    "value": "पॉलिश सिनाबार स्लॅब"
+  },
+  "Polished Cinnabar Stairs": {
+    "method": "machine_google",
+    "value": "पॉलिश सिन्नाबार पायऱ्या"
+  },
+  "Polished Cinnabar Wall": {
+    "method": "machine_google",
+    "value": "पॉलिश सिनाबार वॉल"
+  },
+  "Polished Sulfur": {
+    "method": "machine_google",
+    "value": "पॉलिश सल्फर"
+  },
+  "Polished Sulfur Slab": {
+    "method": "machine_google",
+    "value": "पॉलिश सल्फर स्लॅब"
+  },
+  "Polished Sulfur Stairs": {
+    "method": "machine_google",
+    "value": "पॉलिश सल्फर पायऱ्या"
+  },
+  "Polished Sulfur Wall": {
+    "method": "machine_google",
+    "value": "पॉलिश सल्फर भिंत"
+  },
+  "Poplar Boat": {
+    "method": "machine_google",
+    "value": "पोपलर बोट"
+  },
+  "Poplar Boat with Chest": {
+    "method": "machine_google",
+    "value": "छातीसह पोप्लर बोट"
+  },
+  "Poplar Button": {
+    "method": "machine_google",
+    "value": "चिनार बटण"
+  },
+  "Poplar Door": {
+    "method": "machine_google",
+    "value": "चिनार दरवाजा"
+  },
+  "Poplar Fence": {
+    "method": "machine_google",
+    "value": "चिनार कुंपण"
+  },
+  "Poplar Fence Gate": {
+    "method": "machine_google",
+    "value": "चिनार कुंपण गेट"
+  },
+  "Poplar Hanging Sign": {
+    "method": "machine_google",
+    "value": "पोप्लर हँगिंग चिन्ह"
+  },
+  "Poplar Leaves": {
+    "method": "machine_google",
+    "value": "चिनार पाने"
+  },
+  "Poplar Log": {
+    "method": "machine_google",
+    "value": "पोपलर लॉग"
+  },
+  "Poplar Planks": {
+    "method": "machine_google",
+    "value": "पोपलर फळ्या"
+  },
+  "Poplar Pressure Plate": {
+    "method": "machine_google",
+    "value": "पोप्लर प्रेशर प्लेट"
+  },
+  "Poplar Sapling": {
+    "method": "machine_google",
+    "value": "चिनार रोपटे"
+  },
+  "Poplar Shelf": {
+    "method": "machine_google",
+    "value": "पोप्लर शेल्फ"
+  },
+  "Poplar Sign": {
+    "method": "machine_google",
+    "value": "चिनार चिन्ह"
+  },
+  "Poplar Slab": {
+    "method": "machine_google",
+    "value": "पोपलर स्लॅब"
+  },
+  "Poplar Stairs": {
+    "method": "machine_google",
+    "value": "पोपलर पायऱ्या"
+  },
+  "Poplar Trapdoor": {
+    "method": "machine_google",
+    "value": "पोप्लर ट्रॅपडोर"
+  },
+  "Poplar Wall Hanging Sign": {
+    "method": "machine_google",
+    "value": "पोप्लर वॉल हँगिंग चिन्ह"
+  },
+  "Poplar Wall Sign": {
+    "method": "machine_google",
+    "value": "पोपलर वॉल साइन"
+  },
+  "Poplar Wood": {
+    "method": "machine_google",
+    "value": "चिनार लाकूड"
+  },
+  "Potent Sulfur": {
+    "method": "machine_google",
+    "value": "शक्तिशाली सल्फर"
+  },
+  "Potted Poplar Sapling": {
+    "method": "machine_google",
+    "value": "पॉट केलेले चिनार रोपटे"
+  },
+  "Prefer OpenGL": {
+    "method": "machine_google",
+    "value": "OpenGL ला प्राधान्य द्या"
+  },
+  "Prefer Vulkan (Experimental)": {
+    "method": "machine_google",
+    "value": "वल्कनला प्राधान्य द्या (प्रायोगिक)"
+  },
+  "Press %1$s to dismount": {
+    "method": "machine_google",
+    "value": "डिस्माउंट करण्यासाठी %1$s दाबा"
+  },
+  "Press %1$s to get up": {
+    "method": "machine_google",
+    "value": "उठण्यासाठी %1$s दाबा"
+  },
+  "Press Enter to follow the link": {
+    "method": "machine_google",
+    "value": "लिंक फॉलो करण्यासाठी Enter दाबा"
+  },
+  "Press enter to accept friend request from %s": {
+    "method": "machine_google",
+    "value": "%s ची मित्र विनंती स्वीकारण्यासाठी एंटर दाबा"
+  },
+  "Press enter to cancel friend request to %s": {
+    "method": "machine_google",
+    "value": "%s ला मित्र विनंती रद्द करण्यासाठी एंटर दाबा"
+  },
+  "Press enter to decline friend request from %s": {
+    "method": "machine_google",
+    "value": "%s ची मित्र विनंती नाकारण्यासाठी एंटर दाबा"
+  },
+  "Press enter to remove %s from Friends List": {
+    "method": "machine_google",
+    "value": "मित्र सूचीमधून %s काढण्यासाठी एंटर दाबा"
+  },
+  "Previous Track": {
+    "method": "machine_google",
+    "value": "मागील ट्रॅक"
+  },
+  "Prior": {
+    "method": "machine_google",
+    "value": "अगोदर"
+  },
+  "Problem Sending Your Report": {
+    "method": "machine_google",
+    "value": "तुमचा अहवाल पाठवताना समस्या"
+  },
+  "Purple Concrete Slab": {
+    "method": "machine_google",
+    "value": "जांभळा कंक्रीट स्लॅब"
+  },
+  "Purple Concrete Stairs": {
+    "method": "machine_google",
+    "value": "जांभळ्या काँक्रीटच्या पायऱ्या"
+  },
+  "Purple Cushion": {
+    "method": "machine_google",
+    "value": "जांभळा उशी"
+  },
+  "Purple Wool Slab": {
+    "method": "machine_google",
+    "value": "जांभळा लोकर स्लॅब"
+  },
+  "Purple Wool Stairs": {
+    "method": "machine_google",
+    "value": "जांभळ्या लोकर पायऱ्या"
+  },
+  "Quit Shortcuts": {
+    "method": "machine_google",
+    "value": "शॉर्टकट सोडा"
+  },
+  "Realms": {
+    "method": "machine_google",
+    "value": "क्षेत्रे"
+  },
+  "Realms is a safe, simple way to enjoy an online Minecraft world with up to ten friends at a time. It supports loads of minigames and plenty of custom worlds! Only the owner of the Realm needs to pay.": {
+    "method": "machine_google",
+    "value": "एकावेळी दहा मित्रांसह ऑनलाइन Minecraft जगाचा आनंद घेण्यासाठी Realms हा एक सुरक्षित, सोपा मार्ग आहे. हे अनेक मिनीगेम्स आणि भरपूर सानुकूल जगाचे समर्थन करते! केवळ क्षेत्राच्या मालकाला पैसे द्यावे लागतील."
+  },
+  "Received": {
+    "method": "machine_google",
+    "value": "प्राप्त झाले"
+  },
+  "Record": {
+    "method": "machine_google",
+    "value": "रेकॉर्ड"
+  },
+  "Red Concrete Slab": {
+    "method": "machine_google",
+    "value": "लाल कंक्रीट स्लॅब"
+  },
+  "Red Concrete Stairs": {
+    "method": "machine_google",
+    "value": "लाल काँक्रीटच्या पायऱ्या"
+  },
+  "Red Cushion": {
+    "method": "machine_google",
+    "value": "लाल उशी"
+  },
+  "Red Poplar Leaves": {
+    "method": "machine_google",
+    "value": "लाल चिनार पाने"
+  },
+  "Red Shrub": {
+    "method": "machine_google",
+    "value": "लाल झुडूप"
+  },
+  "Red Wool Slab": {
+    "method": "machine_google",
+    "value": "लाल लोकर स्लॅब"
+  },
+  "Red Wool Stairs": {
+    "method": "machine_google",
+    "value": "लाल लोकर पायऱ्या"
+  },
+  "Reduce fps when": {
+    "method": "machine_google",
+    "value": "जेव्हा fps कमी करा"
+  },
+  "Remote Candidate Type": {
+    "method": "machine_google",
+    "value": "रिमोट उमेदवार प्रकार"
+  },
+  "Remove Friend": {
+    "method": "machine_google",
+    "value": "मित्र काढा"
+  },
+  "Removed %s schedule(s) with ID %s": {
+    "method": "machine_google",
+    "value": "आयडी %s सह %s वेळापत्रक काढून टाकले"
+  },
+  "Removed all post effects from %s": {
+    "method": "machine_google",
+    "value": "%s मधून सर्व पोस्ट इफेक्ट काढून टाकले"
+  },
+  "Removed all post effects from %s players": {
+    "method": "machine_google",
+    "value": "%s खेळाडूंवरील सर्व पोस्ट प्रभाव काढून टाकले"
+  },
+  "Removed post effect %s from %s": {
+    "method": "machine_google",
+    "value": "%s वरून पोस्ट प्रभाव %s काढला"
+  },
+  "Removed post effect %s from %s players": {
+    "method": "machine_google",
+    "value": "%s खेळाडूंमधून पोस्ट प्रभाव %s काढला"
+  },
+  "Removed stopwatch '%s'": {
+    "method": "machine_google",
+    "value": "'%s' स्टॉपवॉच काढले"
+  },
+  "Render Distance Limit": {
+    "method": "machine_google",
+    "value": "रेंडर अंतर मर्यादा"
+  },
+  "Replaced %s slot(s) at %s, %s, %s": {
+    "method": "machine_google",
+    "value": "%s स्लॉट %s, %s, %s वर बदलले"
+  },
+  "Replaced %s slot(s) at %s, %s, %s with %s": {
+    "method": "machine_google",
+    "value": "%s स्लॉट(s) %s, %s, %s वर %s ने बदलले"
+  },
+  "Replaced %s slot(s) on %s": {
+    "method": "machine_google",
+    "value": "%s वर %s स्लॉट बदलले"
+  },
+  "Replaced %s slot(s) on %s with %s": {
+    "method": "machine_google",
+    "value": "%s वर %s स्लॉट(s) %s ने बदलले"
+  },
+  "Replaced slot(s) on %s entities": {
+    "method": "machine_google",
+    "value": "%s घटकांवर स्लॉट बदलले"
+  },
+  "Replaced slot(s) on %s entities with %s": {
+    "method": "machine_google",
+    "value": "%s घटकांवरील स्लॉट(s) %s ने बदलले"
+  },
+  "Report Sent": {
+    "method": "machine_google",
+    "value": "अहवाल पाठवला"
+  },
+  "Report to Server": {
+    "method": "machine_google",
+    "value": "सर्व्हरला अहवाल द्या"
+  },
+  "Requests (%s)": {
+    "method": "machine_google",
+    "value": "विनंत्या (%s)"
+  },
+  "Requires a game restart to take effect.": {
+    "method": "machine_google",
+    "value": "प्रभावी होण्यासाठी गेम रीस्टार्ट करणे आवश्यक आहे."
+  },
+  "Restarted stopwatch '%s'": {
+    "method": "machine_google",
+    "value": "स्टॉपवॉच '%s' रीस्टार्ट केले"
+  },
+  "Rewind": {
+    "method": "machine_google",
+    "value": "रिवाइंड करा"
+  },
+  "Right Click Emulation": {
+    "method": "machine_google",
+    "value": "इम्युलेशनवर राईट क्लिक करा"
+  },
+  "Right Command": {
+    "method": "machine_google",
+    "value": "उजवा आदेश"
+  },
+  "Right Meta": {
+    "method": "machine_google",
+    "value": "बरोबर मेटा"
+  },
+  "Right Option": {
+    "method": "machine_google",
+    "value": "योग्य पर्याय"
+  },
+  "Right Windows": {
+    "method": "machine_google",
+    "value": "उजव्या विंडोज"
+  },
+  "Send friend request": {
+    "method": "machine_google",
+    "value": "फ्रेंड रिक्वेस्ट पाठवा"
+  },
+  "Sending Your Report...": {
+    "method": "machine_google",
+    "value": "तुमचा अहवाल पाठवत आहे..."
+  },
+  "Sent": {
+    "method": "machine_google",
+    "value": "पाठवले"
+  },
+  "Separator": {
+    "method": "machine_google",
+    "value": "विभाजक"
+  },
+  "Server Session ID": {
+    "method": "machine_google",
+    "value": "सर्व्हर सत्र आयडी"
+  },
+  "Servers": {
+    "method": "machine_google",
+    "value": "सर्व्हर"
+  },
+  "Servers may list online players as part of their public status.\nWith this option off, your name will not show up in such lists.": {
+    "method": "machine_google",
+    "value": "सर्व्हर ऑनलाइन खेळाडूंना त्यांच्या सार्वजनिक स्थितीचा भाग म्हणून सूचीबद्ध करू शकतात.\nहा पर्याय बंद केल्याने तुमचे नाव अशा याद्यांमध्ये दिसणार नाही."
+  },
+  "Set the weather to rain and thunder": {
+    "method": "machine_google",
+    "value": "पाऊस आणि मेघगर्जनेसाठी हवामान सेट करा"
+  },
+  "Shelf Mushroom": {
+    "method": "machine_google",
+    "value": "शेल्फ मशरूम"
+  },
+  "Show Friend notifications in-game": {
+    "method": "machine_google",
+    "value": "गेममधील मित्र सूचना दर्शवा"
+  },
+  "Signaling Connection Time (Milliseconds)": {
+    "method": "machine_google",
+    "value": "सिग्नलिंग कनेक्शन वेळ (मिलीसेकंद)"
+  },
+  "Sits on Cushion": {
+    "method": "machine_google",
+    "value": "कुशनवर बसतो"
+  },
+  "Size: %s MB": {
+    "method": "machine_google",
+    "value": "आकार: %s MB"
+  },
+  "Sleep": {
+    "method": "machine_google",
+    "value": "झोप"
+  },
+  "Small Sulfur Cube bounces": {
+    "method": "machine_google",
+    "value": "लहान सल्फर क्यूब बाउन्स"
+  },
+  "Small Sulfur Cube dies": {
+    "method": "machine_google",
+    "value": "लहान सल्फर क्यूब मरतो"
+  },
+  "Small Sulfur Cube hurts": {
+    "method": "machine_google",
+    "value": "लहान सल्फर क्यूब दुखते"
+  },
+  "Small Sulfur Cube puts on mass": {
+    "method": "machine_google",
+    "value": "लहान सल्फर घन वस्तुमान वर ठेवते"
+  },
+  "Soft Left": {
+    "method": "machine_google",
+    "value": "मऊ डावा"
+  },
+  "Soft Right": {
+    "method": "machine_google",
+    "value": "सॉफ्ट राईट"
+  },
+  "Some actions within a chunk will recompile the chunk immediately. This includes block placing and destroying.": {
+    "method": "machine_google",
+    "value": "एका भागामधील काही क्रिया ताबडतोब भाग पुन्हा संकलित करतील. यात ब्लॉक ठेवणे आणि नष्ट करणे समाविष्ट आहे."
+  },
+  "Some of your changes require a game restart to be applied.": {
+    "method": "machine_google",
+    "value": "तुमच्या काही बदलांना लागू करण्यासाठी गेम रीस्टार्ट आवश्यक आहे."
+  },
+  "Something bounces on a Shelf Mushroom": {
+    "method": "machine_google",
+    "value": "शेल्फ मशरूमवर काहीतरी उसळते"
+  },
+  "Something's wrong — with this feature, not your friends!\n\nTry again later.": {
+    "method": "machine_google",
+    "value": "काहीतरी गडबड आहे — या वैशिष्ट्यासह, तुमच्या मित्रांसह नाही!\n\nनंतर पुन्हा प्रयत्न करा."
+  },
+  "South Africa": {
+    "method": "machine_google",
+    "value": "दक्षिण आफ्रिका"
+  },
+  "Started a 10-second performance profiling run (use '/perf stop' to stop early)": {
+    "method": "machine_google",
+    "value": "10-सेकंद कार्यप्रदर्शन प्रोफाइलिंग रन सुरू केले (लवकर थांबण्यासाठी '/perf stop' वापरा)"
+  },
+  "Stop": {
+    "method": "machine_google",
+    "value": "थांबा"
+  },
+  "Straw Bed": {
+    "method": "machine_google",
+    "value": "स्ट्रॉ बेड"
+  },
+  "Straw Bed breaks": {
+    "method": "machine_google",
+    "value": "स्ट्रॉ बेड तोडतो"
+  },
+  "Strength of Nausea and Nether Portal screen distortion effects.\nAt lower values, the Nausea effect is replaced with a green overlay.": {
+    "method": "machine_google",
+    "value": "मळमळ आणि नेदर पोर्टल स्क्रीन विरूपण प्रभावांची ताकद.\nकमी मूल्यांवर, मळमळ प्रभाव हिरव्या आच्छादनाने बदलला जातो."
+  },
+  "Stripped Poplar Log": {
+    "method": "machine_google",
+    "value": "स्ट्रिप्ड पोप्लर लॉग"
+  },
+  "Stripped Poplar Wood": {
+    "method": "machine_google",
+    "value": "स्ट्रिप केलेले चिनार लाकूड"
+  },
+  "Sulfur": {
+    "method": "machine_google",
+    "value": "सल्फर"
+  },
+  "Sulfur Brick Slab": {
+    "method": "machine_google",
+    "value": "सल्फर ब्रिक स्लॅब"
+  },
+  "Sulfur Brick Stairs": {
+    "method": "machine_google",
+    "value": "सल्फर वीट पायऱ्या"
+  },
+  "Sulfur Brick Wall": {
+    "method": "machine_google",
+    "value": "सल्फर वीट भिंत"
+  },
+  "Sulfur Bricks": {
+    "method": "machine_google",
+    "value": "सल्फर विटा"
+  },
+  "Sulfur Caves": {
+    "method": "machine_google",
+    "value": "सल्फर गुहा"
+  },
+  "Sulfur Cube": {
+    "method": "machine_google",
+    "value": "सल्फर घन"
+  },
+  "Sulfur Cube Spawn Egg": {
+    "method": "machine_google",
+    "value": "सल्फर क्यूब स्पॉन अंडी"
+  },
+  "Sulfur Cube bounces": {
+    "method": "machine_google",
+    "value": "सल्फर क्यूब बाउन्स"
+  },
+  "Sulfur Cube dies": {
+    "method": "machine_google",
+    "value": "सल्फर क्यूब मरतो"
+  },
+  "Sulfur Cube full": {
+    "method": "machine_google",
+    "value": "सल्फर घन पूर्ण"
+  },
+  "Sulfur Cube hit": {
+    "method": "machine_google",
+    "value": "सल्फर क्यूब हिट"
+  },
+  "Sulfur Cube hurts": {
+    "method": "machine_google",
+    "value": "सल्फर क्यूब दुखते"
+  },
+  "Sulfur Cube pushed": {
+    "method": "machine_google",
+    "value": "सल्फर क्यूब ढकलले"
+  },
+  "Sulfur Cube scooped": {
+    "method": "machine_google",
+    "value": "सल्फर क्यूब स्कूप्ड"
+  },
+  "Sulfur Slab": {
+    "method": "machine_google",
+    "value": "सल्फर स्लॅब"
+  },
+  "Sulfur Spike": {
+    "method": "machine_google",
+    "value": "सल्फर स्पाइक"
+  },
+  "Sulfur Stairs": {
+    "method": "machine_google",
+    "value": "सल्फर पायऱ्या"
+  },
+  "Sulfur Wall": {
+    "method": "machine_google",
+    "value": "सल्फर भिंत"
+  },
+  "Sulfur spring bursts": {
+    "method": "machine_google",
+    "value": "सल्फर स्प्रिंग फुटते"
+  },
+  "Swamp Abandoned Camp Map": {
+    "method": "machine_google",
+    "value": "दलदलीचा बेबंद कॅम्प नकाशा"
+  },
+  "Swamp Camp Map": {
+    "method": "machine_google",
+    "value": "दलदल कॅम्प नकाशा"
+  },
+  "Swamp Hut Map": {
+    "method": "machine_google",
+    "value": "दलदलीच्या झोपडीचा नकाशा"
+  },
+  "SysRq": {
+    "method": "machine_google",
+    "value": "SysRq"
+  },
+  "Terms of Service not accepted": {
+    "method": "machine_google",
+    "value": "सेवा अटी स्वीकारल्या जात नाहीत"
+  },
+  "Test coordinates: [%s, %s, %s] in %s": {
+    "method": "machine_google",
+    "value": "चाचणी समन्वय: %s मध्ये [%s, %s, %s]"
+  },
+  "That position is outside the allowed boundaries": {
+    "method": "machine_google",
+    "value": "ती स्थिती अनुमत सीमांच्या बाहेर आहे"
+  },
+  "The %s entities have %s total tag(s): %s": {
+    "method": "machine_google",
+    "value": "%s घटकांमध्ये %s एकूण टॅग(s): %s"
+  },
+  "The Friends List service is currently unavailable. Please check your connection and try again later.": {
+    "method": "machine_google",
+    "value": "फ्रेंड्स लिस्ट सेवा सध्या अनुपलब्ध आहे. कृपया तुमचे कनेक्शन तपासा आणि नंतर पुन्हा प्रयत्न करा."
+  },
+  "The amount of chunks that stay loaded around the Overworld spawn position.": {
+    "method": "machine_google",
+    "value": "ओव्हरवर्ल्ड स्पॉन पोझिशनच्या आसपास लोड केलेल्या भागांचे प्रमाण."
+  },
+  "The code you entered is invalid.": {
+    "method": "machine_google",
+    "value": "तुम्ही प्रविष्ट केलेला कोड अवैध आहे."
+  },
+  "The following entries were not valid packs and were not copied:\n%s": {
+    "method": "machine_google",
+    "value": "खालील नोंदी वैध पॅक नाहीत आणि कॉपी केल्या गेल्या नाहीत:\n%s"
+  },
+  "The height limit for building is %s": {
+    "method": "machine_google",
+    "value": "इमारतीसाठी उंची मर्यादा %s आहे"
+  },
+  "The maximum distance visible to Realm members. Higher values may impact performance.": {
+    "method": "machine_google",
+    "value": "Realm सदस्यांना दृश्यमान कमाल अंतर. उच्च मूल्ये कामगिरीवर परिणाम करू शकतात."
+  },
+  "The minimum height for building is %s": {
+    "method": "machine_google",
+    "value": "इमारतीसाठी किमान उंची %s आहे"
+  },
+  "The radius in blocks around a player in which fire can spread.": {
+    "method": "machine_google",
+    "value": "प्लेअरच्या आसपासच्या ब्लॉक्समधील त्रिज्या ज्यामध्ये आग पसरू शकते."
+  },
+  "The range around players where the game loads and applies changes.": {
+    "method": "machine_google",
+    "value": "गेम लोड होतो आणि लागू होतो अशा खेळाडूंच्या आसपासची श्रेणी बदलते."
+  },
+  "The range of the random value must be at least 1": {
+    "method": "machine_google",
+    "value": "यादृच्छिक मूल्याची श्रेणी किमान 1 असणे आवश्यक आहे"
+  },
+  "The range of the random value must be at most 2147483647": {
+    "method": "machine_google",
+    "value": "यादृच्छिक मूल्याची श्रेणी जास्तीत जास्त 2147483647 असणे आवश्यक आहे"
+  },
+  "The source does not have specified slots": {
+    "method": "machine_google",
+    "value": "स्त्रोतामध्ये निर्दिष्ट स्लॉट नाहीत"
+  },
+  "The target does not have specified slots": {
+    "method": "machine_google",
+    "value": "लक्ष्यात निर्दिष्ट स्लॉट नाहीत"
+  },
+  "The world folder seems to already contain some upgraded files. The game is unable to correctly upgrade your world.": {
+    "method": "machine_google",
+    "value": "जागतिक फोल्डरमध्ये आधीच काही अपग्रेड केलेल्या फायली आहेत असे दिसते. गेम तुमचे जग योग्यरित्या अपग्रेड करण्यात अक्षम आहे."
+  },
+  "The world will be downloaded and added to your singleplayer worlds.": {
+    "method": "machine_google",
+    "value": "जग डाउनलोड केले जाईल आणि आपल्या सिंगलप्लेअर जगामध्ये जोडले जाईल."
+  },
+  "There are no players to report in this world": {
+    "method": "machine_google",
+    "value": "या जगात तक्रार करण्यासाठी कोणतेही खेळाडू नाहीत"
+  },
+  "There is no player with this profile name": {
+    "method": "machine_google",
+    "value": "या प्रोफाइल नावाचा कोणताही खेळाडू नाही"
+  },
+  "There is no template with ID \"%s\"": {
+    "method": "machine_google",
+    "value": "\"%s\" आयडी असलेले कोणतेही टेम्पलेट नाही"
+  },
+  "This event helps us understand the reliability and performance of peer-to-peer connections between players. It records whether the connection was successful, the type of Interactive Connectivity Establishment (ICE, the protocol we use to establish peer-to-peer connections) candidate used, and how long it took to establish the connection.": {
+    "method": "machine_google",
+    "value": "हा कार्यक्रम आम्हाला खेळाडूंमधील पीअर-टू-पीअर कनेक्शनची विश्वसनीयता आणि कामगिरी समजून घेण्यात मदत करतो. हे कनेक्शन यशस्वी झाले की नाही, इंटरएक्टिव्ह कनेक्टिव्हिटी एस्टॅब्लिशमेंटचा प्रकार (ICE, पीअर-टू-पीअर कनेक्शन स्थापित करण्यासाठी आम्ही वापरत असलेला प्रोटोकॉल) उमेदवार वापरले आणि कनेक्शन स्थापित करण्यासाठी किती वेळ लागला याची नोंद केली जाते."
+  },
+  "This event informs us of the capabilities of the graphics device used to play the game.": {
+    "method": "machine_google",
+    "value": "हा कार्यक्रम आम्हाला गेम खेळण्यासाठी वापरल्या जाणाऱ्या ग्राफिक्स उपकरणाच्या क्षमतेची माहिती देतो."
+  },
+  "This fullscreen mode might prevent some input methods from working, but adaptive sync (Nvidia G-Sync, AMD FreeSync) should work.": {
+    "method": "machine_google",
+    "value": "हा पूर्णस्क्रीन मोड काही इनपुट पद्धतींना कार्य करण्यापासून प्रतिबंधित करू शकतो, परंतु अनुकूली समक्रमण (Nvidia G-Sync, AMD FreeSync) कार्य करेल."
+  },
+  "This is a Snapshot Realm that is paired with the subscription of your Realm '%s'. It will stay active for as long as its paired Realm is.": {
+    "method": "machine_google",
+    "value": "हे स्नॅपशॉट क्षेत्र आहे जे तुमच्या क्षेत्र '%s' च्या सदस्यतेसह जोडलेले आहे. जोपर्यंत त्याचे जोडलेले क्षेत्र आहे तोपर्यंत ते सक्रिय राहील."
+  },
+  "This setting only takes effect when Exclusive Fullscreen is enabled.": {
+    "method": "machine_google",
+    "value": "अनन्य पूर्णस्क्रीन सक्षम केल्यावरच ही सेटिंग प्रभावी होते."
+  },
+  "This world is no longer open to multiplayer": {
+    "method": "machine_google",
+    "value": "हे जग आता मल्टीप्लेअरसाठी खुले नाही"
+  },
+  "This world is now open to LAN. The port number is %s": {
+    "method": "machine_google",
+    "value": "हे जग आता LAN साठी खुले आहे. पोर्ट क्रमांक %s आहे"
+  },
+  "This world is now open to Online multiplayer.": {
+    "method": "machine_google",
+    "value": "हे जग आता ऑनलाइन मल्टीप्लेअरसाठी खुले आहे."
+  },
+  "This world must be opened in an older version (like 1.6.4) to be safely converted.": {
+    "method": "machine_google",
+    "value": "सुरक्षितपणे रूपांतरित होण्यासाठी हे जग जुन्या आवृत्तीमध्ये (जसे की 1.6.4) उघडले पाहिजे."
+  },
+  "Thousands Separator": {
+    "method": "machine_google",
+    "value": "हजारो विभाजक"
+  },
+  "Time (in ticks) that a creative mode player needs to stand in a Nether Portal before changing dimensions.": {
+    "method": "machine_google",
+    "value": "क्रिएटिव्ह मोड प्लेअरला नेदर पोर्टलमध्ये परिमाण बदलण्याआधी उभे राहण्याची वेळ (टिकमध्ये)"
+  },
+  "Time (in ticks) that a non-creative mode player needs to stand in a Nether Portal before changing dimensions.": {
+    "method": "machine_google",
+    "value": "नॉन-क्रिएटिव्ह मोड प्लेयरला परिमाण बदलण्यापूर्वी नेदर पोर्टलमध्ये उभे राहण्याची वेळ (टिकमध्ये)"
+  },
+  "Times Slept in a Straw Bed": {
+    "method": "machine_google",
+    "value": "टाइम्स स्ट्रॉ बेडमध्ये झोपला"
+  },
+  "Toggle Improved Transparency": {
+    "method": "machine_google",
+    "value": "सुधारित पारदर्शकता टॉगल करा"
+  },
+  "Total Connection Time (Milliseconds)": {
+    "method": "machine_google",
+    "value": "एकूण कनेक्शन वेळ (मिलीसेकंद)"
+  },
+  "Track Output": {
+    "method": "machine_google",
+    "value": "ट्रॅक आउटपुट"
+  },
+  "Translation file for %s was empty or missing. Restart your game and launcher, then try again.": {
+    "method": "machine_google",
+    "value": "%s साठी भाषांतर फाइल रिकामी किंवा गहाळ होती. तुमचा गेम आणि लाँचर रीस्टार्ट करा, नंतर पुन्हा प्रयत्न करा."
+  },
+  "Try for free": {
+    "method": "machine_google",
+    "value": "विनामूल्य प्रयत्न करा"
+  },
+  "Turn OFF": {
+    "method": "machine_google",
+    "value": "बंद करा"
+  },
+  "Turn ON": {
+    "method": "machine_google",
+    "value": "चालू करा"
+  },
+  "Uh Oh": {
+    "method": "machine_google",
+    "value": "ओह"
+  },
+  "Unable to read or access the folder where game worlds are saved!": {
+    "method": "machine_google",
+    "value": "फोल्डर वाचण्यात किंवा ऍक्सेस करण्यात अक्षम आहे जेथे गेम वर्ल्ड सेव्ह केले आहेत!"
+  },
+  "Unable to send your friend request right now": {
+    "method": "machine_google",
+    "value": "आत्ता तुमची फ्रेंड रिक्वेस्ट पाठवता येत नाही"
+  },
+  "Unable to teleport. The other side is not generated yet.": {
+    "method": "machine_google",
+    "value": "टेलीपोर्ट करण्यात अक्षम. दुसरी बाजू अजून निर्माण झालेली नाही."
+  },
+  "Unchanged": {
+    "method": "machine_google",
+    "value": "अपरिवर्तित"
+  },
+  "Undo": {
+    "method": "machine_google",
+    "value": "पूर्ववत करा"
+  },
+  "Unknown swing animation type: %s": {
+    "method": "machine_google",
+    "value": "अज्ञात स्विंग ॲनिमेशन प्रकार: %s"
+  },
+  "Update the game to access your Friends List.": {
+    "method": "machine_google",
+    "value": "तुमच्या मित्रांच्या सूचीमध्ये प्रवेश करण्यासाठी गेम अपडेट करा."
+  },
+  "Use your Friends List to send and receive friend requests.\n\nManage online safety settings with your %s.": {
+    "method": "machine_google",
+    "value": "मित्र विनंत्या पाठवण्यासाठी आणि प्राप्त करण्यासाठी तुमची मित्र यादी वापरा.\n\nतुमच्या %s सह ऑनलाइन सुरक्षा सेटिंग्ज व्यवस्थापित करा."
+  },
+  "Uses HRTF-based directional audio to improve the simulation of 3D sound. Requires HRTF-compatible audio hardware, and is best experienced with headphones.": {
+    "method": "machine_google",
+    "value": "3D आवाजाचे सिम्युलेशन सुधारण्यासाठी HRTF-आधारित दिशात्मक ऑडिओ वापरते. HRTF-सुसंगत ऑडिओ हार्डवेअर आवश्यक आहे, आणि हेडफोनसह सर्वोत्तम अनुभव आहे."
+  },
+  "Validating code": {
+    "method": "machine_google",
+    "value": "कोड प्रमाणित करत आहे"
+  },
+  "Visibility": {
+    "method": "machine_google",
+    "value": "दृश्यमानता"
+  },
+  "Volume Down": {
+    "method": "machine_google",
+    "value": "आवाज कमी करा"
+  },
+  "Volume Up": {
+    "method": "machine_google",
+    "value": "आवाज वाढवा"
+  },
+  "Wait...": {
+    "method": "machine_google",
+    "value": "थांबा..."
+  },
+  "Waiting for confirmation": {
+    "method": "machine_google",
+    "value": "पुष्टीकरणाची प्रतीक्षा करत आहे"
+  },
+  "Wake": {
+    "method": "machine_google",
+    "value": "वेक"
+  },
+  "Warm Ocean Ruins Map": {
+    "method": "machine_google",
+    "value": "उबदार महासागर अवशेष नकाशा"
+  },
+  "When enabled, Control + left-click is treated as a right-click. Only applies on macOS.": {
+    "method": "machine_google",
+    "value": "सक्षम केल्यावर, नियंत्रण + डावे-क्लिक उजवे-क्लिक म्हणून मानले जाते. फक्त macOS वर लागू होते."
+  },
+  "When flowing lava is surrounded on two sides by lava sources, it converts into a source.": {
+    "method": "machine_google",
+    "value": "जेव्हा वाहणारा लावा दोन बाजूंनी लावाच्या स्त्रोतांनी वेढलेला असतो, तेव्हा त्याचे स्त्रोतामध्ये रूपांतर होते."
+  },
+  "When flowing water is surrounded on two sides by water sources, it converts into a source.": {
+    "method": "machine_google",
+    "value": "जेव्हा वाहते पाणी दोन बाजूंनी जलस्रोतांनी वेढलेले असते, तेव्हा त्याचे स्त्रोतामध्ये रूपांतर होते."
+  },
+  "Whether keyboard shortcuts can close the game. When off, Alt + F4 on Windows and Linux, and Cmd + Q on macOS, will no longer quit the game.": {
+    "method": "machine_google",
+    "value": "कीबोर्ड शॉर्टकट गेम बंद करू शकतात की नाही. बंद असताना, Windows आणि Linux वर Alt + F4 आणि macOS वर Cmd + Q, यापुढे गेम सोडणार नाहीत."
+  },
+  "Whether the macOS Menu bar and Dock can be revealed by moving the mouse to the edge of the screen while in non-exclusive fullscreen.": {
+    "method": "machine_google",
+    "value": "नॉन-एक्सक्लूसिव्ह फुलस्क्रीनमध्ये असताना स्क्रीनच्या काठावर माउस हलवून macOS मेनू बार आणि डॉक उघड केले जाऊ शकतात का."
+  },
+  "Which graphics API to use for rendering. Leave as Default unless you have a specific need to change this!": {
+    "method": "machine_google",
+    "value": "प्रस्तुतीकरणासाठी कोणते ग्राफिक्स API वापरायचे. तुम्हाला हे बदलण्याची विशिष्ट गरज असल्याशिवाय डीफॉल्ट म्हणून सोडा!"
+  },
+  "White Concrete Slab": {
+    "method": "machine_google",
+    "value": "पांढरा काँक्रीट स्लॅब"
+  },
+  "White Concrete Stairs": {
+    "method": "machine_google",
+    "value": "पांढऱ्या काँक्रीटच्या पायऱ्या"
+  },
+  "White Cushion": {
+    "method": "machine_google",
+    "value": "पांढरी उशी"
+  },
+  "White Wool Slab": {
+    "method": "machine_google",
+    "value": "पांढरा लोकर स्लॅब"
+  },
+  "White Wool Stairs": {
+    "method": "machine_google",
+    "value": "पांढऱ्या लोकरीच्या पायऱ्या"
+  },
+  "Wind rushes past": {
+    "method": "machine_google",
+    "value": "वारा भूतकाळात जातो"
+  },
+  "Windswept Forest Abandoned Camp Map": {
+    "method": "machine_google",
+    "value": "विंडस्वेप्ट फॉरेस्ट बेबंद कॅम्प नकाशा"
+  },
+  "Windswept Forest Camp Map": {
+    "method": "machine_google",
+    "value": "विंडस्वेप्ट फॉरेस्ट कॅम्प नकाशा"
+  },
+  "Woodland Mansion Map": {
+    "method": "machine_google",
+    "value": "वुडलँड हवेली नकाशा"
+  },
+  "Xbox Settings...": {
+    "method": "machine_google",
+    "value": "Xbox सेटिंग्ज..."
+  },
+  "Yellow Concrete Slab": {
+    "method": "machine_google",
+    "value": "पिवळा कंक्रीट स्लॅब"
+  },
+  "Yellow Concrete Stairs": {
+    "method": "machine_google",
+    "value": "पिवळ्या काँक्रीटच्या पायऱ्या"
+  },
+  "Yellow Cushion": {
+    "method": "machine_google",
+    "value": "पिवळी उशी"
+  },
+  "Yellow Poplar Leaves": {
+    "method": "machine_google",
+    "value": "पिवळी चिनार पाने"
+  },
+  "Yellow Wool Slab": {
+    "method": "machine_google",
+    "value": "पिवळा लोकर स्लॅब"
+  },
+  "Yellow Wool Stairs": {
+    "method": "machine_google",
+    "value": "पिवळ्या लोकर पायऱ्या"
+  },
+  "You are now friends with %s": {
+    "method": "machine_google",
+    "value": "तुम्ही आता %s चे मित्र आहात"
+  },
+  "You are trying to execute a command that will send chat messages using your name.\nIt can only be run from the chat screen.\nCommand: %s": {
+    "method": "machine_google",
+    "value": "तुम्ही कमांड कार्यान्वित करण्याचा प्रयत्न करत आहात जी तुमचे नाव वापरून चॅट संदेश पाठवेल.\nहे फक्त चॅट स्क्रीनवरून चालवले जाऊ शकते.\nआदेश: %s"
+  },
+  "You asked to join %s's world": {
+    "method": "machine_google",
+    "value": "तुम्ही %s च्या जगात सामील होण्यास सांगितले"
+  },
+  "You can add up to %s invite codes and share them so people can join your Realm": {
+    "method": "machine_google",
+    "value": "तुम्ही %s पर्यंत आमंत्रण कोड जोडू शकता आणि ते शेअर करू शकता जेणेकरून लोक तुमच्या क्षेत्रात सामील होऊ शकतील"
+  },
+  "You can temporarily close your Realm, preventing play while you make adjustments. Open it back up when you're ready.\n\nThis does not cancel your Realms subscription.": {
+    "method": "machine_google",
+    "value": "तुम्ही ॲडजस्ट करत असताना तुम्ही तुमचे क्षेत्र तात्पुरते बंद करू शकता. तुम्ही तयार असाल तेव्हा ते बॅकअप उघडा.\n\nहे तुमचे Realms सदस्यत्व रद्द करत नाही."
+  },
+  "You cannot send a friend request to yourself": {
+    "method": "machine_google",
+    "value": "तुम्ही स्वतःला फ्रेंड रिक्वेस्ट पाठवू शकत नाही"
+  },
+  "You have received %s friend requests": {
+    "method": "machine_google",
+    "value": "तुम्हाला %s मित्र विनंत्या मिळाल्या आहेत"
+  },
+  "You must restart your game to change the graphics API.": {
+    "method": "machine_google",
+    "value": "ग्राफिक्स API बदलण्यासाठी तुम्ही तुमचा गेम रीस्टार्ट करणे आवश्यक आहे."
+  },
+  "You're performing Friends List actions too quickly. Please wait a moment and try again.": {
+    "method": "machine_google",
+    "value": "तुम्ही फ्रेंड लिस्ट क्रिया खूप लवकर करत आहात. कृपया थोडा वेळ थांबा आणि पुन्हा प्रयत्न करा."
+  },
+  "You've already sent a friend request to %s": {
+    "method": "machine_google",
+    "value": "तुम्ही आधीच %s ला फ्रेंड रिक्वेस्ट पाठवली आहे"
+  },
+  "Your invited friends can play in your Realm for free, anytime - even when you're not online. Play with up to 10 at once!": {
+    "method": "machine_google",
+    "value": "तुमचे आमंत्रित मित्र तुमच्या क्षेत्रात कधीही विनामूल्य खेळू शकतात - तुम्ही ऑनलाइन नसतानाही. एकाच वेळी 10 पर्यंत खेळा!"
+  },
+  "Your own server, always online": {
+    "method": "machine_google",
+    "value": "तुमचा स्वतःचा सर्व्हर, नेहमी ऑनलाइन"
+  },
+  "fingerspit - Bounce": {
+    "method": "machine_google",
+    "value": "फिंगरस्पिट - उसळणे"
+  },
+  "fingerspit - Ebb": {
+    "method": "machine_google",
+    "value": "फिंगरस्पिट - ओहोटी"
+  },
+  "fingerspit - Home": {
+    "method": "machine_google",
+    "value": "फिंगरस्पिट - घर"
+  },
+  "fingerspit - Memories": {
+    "method": "machine_google",
+    "value": "फिंगरस्पिट - आठवणी"
+  },
+  "fingerspit - Nightly": {
+    "method": "machine_google",
+    "value": "फिंगरस्पिट - रात्री"
+  },
+  "fingerspit - Shores": {
+    "method": "machine_google",
+    "value": "फिंगरस्पिट - किनारे"
+  },
+  "relative position x": {
+    "method": "machine_google",
+    "value": "सापेक्ष स्थिती x"
+  },
+  "• Automatic backups": {
+    "method": "machine_google",
+    "value": "• स्वयंचलित बॅकअप"
+  },
+  "• Easy to set up, easy to manage": {
+    "method": "machine_google",
+    "value": "• सेट करणे सोपे, व्यवस्थापित करणे सोपे"
+  },
+  "• Private and secure": {
+    "method": "machine_google",
+    "value": "• खाजगी आणि सुरक्षित"
+  },
+  "• Three world slots": {
+    "method": "machine_google",
+    "value": "• तीन जागतिक स्लॉट"
+  }
+}
