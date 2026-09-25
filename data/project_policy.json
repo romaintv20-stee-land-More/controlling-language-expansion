@@ -24,6 +24,10 @@
     "machine_assisted_minecraft_keys": 722,
     "manual_language_review_required": true,
     "in_game_validation_required": true,
-    "artifacts_dir": "release-candidates/1.0.1"
+    "artifacts_dir": "release-candidates/1.0.1",
+    "delivery": "single_jar",
+    "standalone_resourcepack_required": false,
+    "embedded_minecraft_version_audited": "26.3",
+    "candidate_filename": "Controlling-Language-Expansion-1.0.1-mc1.21.9-26.3-marathi-all-in-one.jar"
   }
-}
+}\n

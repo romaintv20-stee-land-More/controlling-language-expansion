@@ -39,13 +39,13 @@ The automated upstream audit now covers 38 numbered branches from 1.7.10 through
 - Generation 06 — `.json`, 14 keys: 1.20.5, 1.20.6, 1.21
 - Generation 07 — `.json`, 12 keys: 1.21.1 through 26.3
 
-## Upcoming Marathi-inclusive 1.0.1 (not yet published)
+## Upcoming Marathi-inclusive 1.0.1 — single JAR (not yet published)
 
-The existing 1.0.1 baseline has been extended with a complete **Marathi (`mr_in`) Controlling translation** (12 keys). The 126 previously included languages and all original loader classes remain unchanged. The new JAR is prepared in [release-candidates/1.0.1](release-candidates/1.0.1/), alongside a **separate Minecraft 26.3 Marathi resource pack** based directly on the user's Beyond & More 26.1.2 Marathi translations.
+The new [all-in-one Marathi candidate](release-candidates/1.0.1/) contains **both** a complete 12-key Marathi Controlling translation and **8,559 Minecraft 26.3 Marathi translations in the same JAR**. It registers `मराठी` through the mod's own `pack.mcmeta`; no extra resource-pack ZIP or `resourcepacks/` installation is necessary. All 126 original Controlling locales, compiled loader classes and metadata are preserved.
 
-The Minecraft resource pack includes all **8,559 official Minecraft 26.3 English keys**: 7,790 unchanged-key translations reused directly from Beyond & More, 45 reuses of identical English meanings, 2 curated fixes and 722 machine-assisted translations for new/changed English keys. Native-speaker proofreading and real game tests remain outstanding; these files are **not an already-published Marathi release**.
+Minecraft Marathi source: 7,790 exact unchanged-key Beyond & More 26.1.2 translations, 45 unique identical-English reuses, 2 curated corrections, and 722 machine-assisted additions/revisions. The machine-assisted strings still require native-speaker review.
 
-See [installation, provenance, build and verification details](docs/MARATHI_1_0_1.md). Only the companion ZIP targets Minecraft 26.3 specifically; the Controlling JAR retains its pre-existing 1.21.9–26.3 declared range.
+The Controlling JAR retains the original declared **1.21.9–26.3** Minecraft range; the embedded Minecraft localization was audited for **26.3** specifically. In-game testing of the new language selector, Devanagari font and each loader is still required; the new candidate is **not yet publicly published**. See [single-JAR installation and changelog](docs/MARATHI_1_0_1.md).
 
 ## Compatibility model
 

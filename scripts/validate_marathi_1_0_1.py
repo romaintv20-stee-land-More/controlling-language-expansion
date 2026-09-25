@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static QA for the Marathi Controlling 1.0.1 JAR and Minecraft 26.3 pack."""
+"""Static QA for the single Marathi 1.0.1 Controlling + Minecraft 26.3 JAR."""
 from __future__ import annotations
 import argparse
 import hashlib
@@ -10,7 +10,7 @@ from pathlib import Path
 
 from build_marathi_1_0_1 import (
     BASE_SHA256,CONTROLLING,CONTROLLING_EN,DEFAULT_BASE,MOD_FILENAME,
-    OUT,PACK_FILENAME,PROVENANCE,ROOT,VANILLA,jload
+    OUT,PROVENANCE,ROOT,VANILLA,jload
 )
 from prepare_marathi_26_3 import TOKEN
 
@@ -68,42 +68,48 @@ def audit(base:Path,outdir:Path,english:Path|None)->dict:
         raise ValueError("Marathi locale now exists in Controlling upstream; re-audit ownership")
     source=get_info(base)
     candidate=get_info(outdir/MOD_FILENAME)
-    new_entry="assets/controlling/lang/mr_in.json"
-    if set(candidate)!=set(source)|{new_entry}:
-        raise ValueError("Candidate JAR changed/removes/adds unexpected members")
-    if any(candidate[n]!=v for n,v in source.items()):
-        raise ValueError("An existing original JAR entry changed; preserve other languages and loaders")
-    if json.loads(candidate[new_entry])!=controlling:
-        raise ValueError("New Marathi entry differs from reviewed Controlling translation source")
-    all_locale=[n for n in candidate if n.startswith("assets/controlling/lang/") and n.endswith(".json")]
-    if len(all_locale)!=127 or not all(meta in candidate for meta in ("fabric.mod.json","META-INF/mods.toml","META-INF/neoforge.mods.toml")):
-        raise ValueError("Candidate missing multi-loader metadata or expected 127 locales")
+    controlling_entry="assets/controlling/lang/mr_in.json"
+    minecraft_entry="assets/minecraft/lang/mr_in.json"
+    added={controlling_entry,minecraft_entry}
+    if set(candidate)!=set(source)|added:
+        raise ValueError("All-in-one JAR changed/removes/adds unexpected archive entries")
+    if any(candidate[n]!=old for n,old in source.items() if n!="pack.mcmeta"):
+        raise ValueError("An original JAR entry changed; preserve all classes, loaders and locales")
+    if json.loads(candidate[controlling_entry])!=controlling:
+        raise ValueError("New Controlling Marathi entry differs from translation source")
+    if json.loads(candidate[minecraft_entry])!=vanilla:
+        raise ValueError("Embedded Minecraft Marathi language differs from 8559-key source")
+    locales=[n for n in candidate if n.startswith("assets/controlling/lang/") and n.endswith(".json")]
+    if len(locales)!=127:
+        raise ValueError(f"Expected 127 Controlling locale files, got {len(locales)}")
+    for meta in ("fabric.mod.json","META-INF/mods.toml","META-INF/neoforge.mods.toml"):
+        if meta not in candidate or source[meta]!=candidate[meta]:
+            raise ValueError(f"Original multi-loader metadata changed: {meta}")
     if json.loads(candidate["fabric.mod.json"])["version"]!="1.0.1":
         raise ValueError("Candidate Fabric metadata is not 1.0.1")
-    pack=get_info(outdir/PACK_FILENAME)
-    if "assets/minecraft/lang/mr_in.json" not in pack or "pack.mcmeta" not in pack:
-        raise ValueError("Minecraft Marathi resource pack missing required assets")
-    if json.loads(pack["assets/minecraft/lang/mr_in.json"])!=vanilla:
-        raise ValueError("Resource pack translation differs from source")
-    metadata=json.loads(pack["pack.mcmeta"])
-    if metadata["pack"]["min_format"]!=[97,1] or metadata["pack"]["max_format"]!=[97,1]:
-        raise ValueError("Resource pack does not target official Minecraft 26.3 format 97.1")
+    original_meta=json.loads(source["pack.mcmeta"])
+    metadata=json.loads(candidate["pack.mcmeta"])
+    if metadata.get("pack")!=original_meta.get("pack"):
+        raise ValueError("Embedded pack must preserve original Minecraft 1.21.9–26.3 format range")
+    if metadata["pack"]["min_format"]!=[69,0] or metadata["pack"]["max_format"]!=[97,1]:
+        raise ValueError("Expected original resource pack format range 69.0–97.1")
     if metadata["language"]!={"mr_in":{"name":"मराठी","region":"भारत","bidirectional":False}}:
-        raise ValueError("Minecraft custom Marathi language declaration missing")
+        raise ValueError("Single JAR has no Marathi entry for Minecraft's language selector")
     hashes=jload(outdir/"marathi_1_0_1_SHA256.json")
-    for typ,path in (("controlling_jar",outdir/MOD_FILENAME),("minecraft_26_3_resourcepack",outdir/PACK_FILENAME)):
-        if hashes[typ]["sha256"]!=hashlib.sha256(path.read_bytes()).hexdigest():
-            raise ValueError(f"{typ}: pinned candidate digest mismatch")
+    jar=outdir/MOD_FILENAME
+    if (hashes["all_in_one_jar"]["sha256"]!=hashlib.sha256(jar.read_bytes()).hexdigest()
+            or hashes["embedded_minecraft_language"] is not True
+            or hashes["separate_zip_required"] is not False):
+        raise ValueError("All-in-one candidate SHA-256 or embedded language metadata mismatch")
     frozen=ROOT/"release-candidates/1.0.1"
-    if frozen.is_dir():
+    if frozen.is_dir() and (frozen/MOD_FILENAME).exists():
         fixed=jload(frozen/"marathi_1_0_1_SHA256.json")
-        for label,filename in (("controlling_jar",MOD_FILENAME),("minecraft_26_3_resourcepack",PACK_FILENAME)):
-            candidate_file=frozen/filename
-            if hashlib.sha256(candidate_file.read_bytes()).hexdigest()!=fixed[label]["sha256"]:
-                raise ValueError(f"Frozen {label} has invalid SHA-256")
-            if get_info(candidate_file)!=get_info(outdir/filename):
-                raise ValueError(f"Frozen {label} has stale ZIP contents compared to reconstructed build")
-        print("PASS: frozen JAR and resource-pack candidates match the rebuilt source byte-for-byte per entry")
+        final_jar=frozen/MOD_FILENAME
+        if hashlib.sha256(final_jar.read_bytes()).hexdigest()!=fixed["all_in_one_jar"]["sha256"]:
+            raise ValueError("Frozen single-JAR candidate digest mismatch")
+        if get_info(final_jar)!=candidate:
+            raise ValueError("Frozen single-JAR candidate stale against deterministic rebuild")
+        print("PASS: committed single JAR matches a clean rebuild, entry by entry")
     result={
         "minecraft":"26.3","pack_format":"97.1",
         "minecraft_keys":len(vanilla),"placeholder_signature_keys":len(tokenized),
@@ -115,7 +121,7 @@ def audit(base:Path,outdir:Path,english:Path|None)->dict:
     }
     print("PASS: Marathi Minecraft 26.3 key and 1082 token-signature QA")
     print("PASS: 12 Marathi Controlling keys, all 126 original locale files preserved, all loader metadata preserved")
-    print("PASS: 8559-key resource pack, 97.1 metadata, user-visible Marathi selector, archive integrity and SHA-256")
+    print("PASS: one JAR embeds 8559 Minecraft keys, custom Marathi language metadata, archive integrity and SHA-256")
     print("NOTE: 722 machine-assisted entries need native review; in-game tests still required")
     return result
 
