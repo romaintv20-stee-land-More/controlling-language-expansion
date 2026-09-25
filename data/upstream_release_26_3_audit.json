@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "audited_on": "2026-09-25",
+  "addon_public_file": {
+    "platform": "CurseForge",
+    "project_id": 1686955,
+    "file_id": 8901886,
+    "filename": "Controlling-Language-Expansion-1.0.1-mc1.21.9-26.3.jar",
+    "version": "1.0.1",
+    "uploaded": "2026-09-17",
+    "published_jar_sha256": "853cd6b5435f82f8bce6e67ee6595cbc3e19b9616ec14fa33a9f1eb0c36cfc64",
+    "published_jar_bytes": 44556,
+    "jar_locale_file_count": 126,
+    "resource_pack_min_format": [
+      69,
+      0
+    ],
+    "resource_pack_max_format": [
+      97,
+      1
+    ]
+  },
+  "upstream": {
+    "repository": "Jaredlll08/Controlling",
+    "minecraft": "26.3",
+    "current_public_release": "26.3.3",
+    "published_addon_reference_commit": "2db798ad363bb4a50d8444f8ff75b4ac16db53be",
+    "audited_head_commit": "d7426fa0702a790be069b5baece752212a6d9a8f",
+    "english_key_count": 12,
+    "official_locale_file_count": 24,
+    "official_locale_git_blob_shas": {
+      "common/src/main/resources/assets/controlling/lang/de_de.json": "f3b1b9b8576a9c1289c950aff96e18dc48ea03fc",
+      "common/src/main/resources/assets/controlling/lang/en_ca.json": "3a787d22d6cddd6681bbe62670b48596f238a54d",
+      "common/src/main/resources/assets/controlling/lang/en_pt.json": "3c808fe1afb906949aa6805e8f3d7fa728eebcf4",
+      "common/src/main/resources/assets/controlling/lang/en_ud.json": "156ef0fa58d4502a56f1bc918b5566f8ba56e45a",
+      "common/src/main/resources/assets/controlling/lang/en_us.json": "b178f87417d0c4cffc83a721534a3ba747b48ae8",
+      "common/src/main/resources/assets/controlling/lang/es_es.json": "747d9b4385ddb389c469d213ebba0b2a5654d827",
+      "common/src/main/resources/assets/controlling/lang/fi_fi.json": "41449e993404919069de8ee944056bcf15556ef4",
+      "common/src/main/resources/assets/controlling/lang/fr_fr.json": "2dfafa622d335ec4ff904faa4a5fca8679bc723f",
+      "common/src/main/resources/assets/controlling/lang/hi_in.json": "36e3f0d24d6a6cdf0ba600743fe0ee01dc024e8d",
+      "common/src/main/resources/assets/controlling/lang/it_it.json": "375e2e624643cb60ef3dd380c09ba3fb5ac624ab",
+      "common/src/main/resources/assets/controlling/lang/ja_jp.json": "e3ae8c578d4c29c27532c53aadf3a9a233794e38",
+      "common/src/main/resources/assets/controlling/lang/kk_kz.json": "7ae9d628c33252d612a4f262a046c7d77b4207dc",
+      "common/src/main/resources/assets/controlling/lang/ko_kr.json": "9fcae90a593a5a47de27cfbb2f7dd06263c15c0b",
+      "common/src/main/resources/assets/controlling/lang/lzh.json": "7b31074b608d6117ff4a48fac2fd8e49b1d6a0d9",
+      "common/src/main/resources/assets/controlling/lang/nl_nl.json": "45eb0903cd36175fb38559e9c38353798c14e6e7",
+      "common/src/main/resources/assets/controlling/lang/pl_pl.json": "f551c3c7d178547fb4539d40c531880628b9b91f",
+      "common/src/main/resources/assets/controlling/lang/pt_br.json": "64718b0597fd41b5249bd2b842c209116eae9891",
+      "common/src/main/resources/assets/controlling/lang/ru_ru.json": "7e70f79bc429735d24c715f6d5095ab12c9c63ed",
+      "common/src/main/resources/assets/controlling/lang/ta_in.json": "9b6c481d25662393a0efd1ed2cb806ded4f6a81c",
+      "common/src/main/resources/assets/controlling/lang/tr_tr.json": "6878a566e8f0585a096909cdfa890c4f828e1406",
+      "common/src/main/resources/assets/controlling/lang/uk_ua.json": "43196f0d9bc9da9b91a31bdc288871ea41115d62",
+      "common/src/main/resources/assets/controlling/lang/zh_cn.json": "d88979012363b3ae8524c5012c7f8a54f82c8dba",
+      "common/src/main/resources/assets/controlling/lang/zh_hk.json": "48170ef7ef45854c21c2e823a25ddf77291d0c14",
+      "common/src/main/resources/assets/controlling/lang/zh_tw.json": "48170ef7ef45854c21c2e823a25ddf77291d0c14"
+    },
+    "changes_since_published_addon": [
+      "2026-09-19 Fabric event mod ID fix",
+      "2026-09-19 follow-up Fabric mod ID fix"
+    ],
+    "localization_keys_changed": false,
+    "official_locale_files_changed": false
+  },
+  "assessment": {
+    "binary_rebuild_required_for_26_3_3": false,
+    "reason": "Official Controlling 26.3.1-to-26.3.3 changes modify Fabric integration code only; all 24 upstream language JSON blobs remain identical. The published addon JAR already includes Minecraft 26.3 and the 97.1 pack format.",
+    "limits": "Static metadata/resource audit only; in-game compatibility is not proven."
+  }
+}
