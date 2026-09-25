@@ -24,6 +24,9 @@ jobs:
       - name: Audit Controlling upstream
         run: python scripts/audit_upstream.py
 
+      - name: Verify current 26.3 upstream localization compatibility
+        run: python scripts/verify_current_release.py
+
       - name: Audit legacy pack
         run: python scripts/audit_legacy_pack.py
 

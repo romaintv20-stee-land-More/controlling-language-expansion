@@ -1,10 +1,18 @@
 {
-  "project_version": "0.1.0-beta",
+  "project_version": "1.0.1",
   "minecraft_min": "1.7.10",
-  "minecraft_max": "26.2",
+  "minecraft_max": "26.3",
   "locale_policy": "real_minecraft_java_languages_only",
   "fantasy_locales": "deferred",
   "official_upstream_priority": true,
   "upstream_repository": "jaredlll08/Controlling",
-  "release_status": "development"
+  "release_status": "published",
+  "public_release": {
+    "platform": "CurseForge",
+    "project_id": 1686955,
+    "latest_file_id": 8901886,
+    "released_on": "2026-09-17",
+    "version": "1.0.1",
+    "supported_minecraft_max": "26.3"
+  }
 }
