@@ -1,0 +1,14 @@
+{
+  "options.availableKeys": "उपलब्ध कळा",
+  "options.confirmReset": "रीसेट करण्याची खात्री आहे?",
+  "options.showAll": "सर्व दाखवा",
+  "options.showConflicts": "संघर्ष असलेल्या कळा दाखवा",
+  "options.showNone": "न नेमलेल्या कळा दाखवा",
+  "options.sort": "क्रमवारी",
+  "options.sortAZ": "A ते Z",
+  "options.sortKeyAZ": "कळा: A ते Z",
+  "options.sortKeyZA": "कळा: Z ते A",
+  "options.sortNone": "क्रमवारी नाही",
+  "options.sortZA": "Z ते A",
+  "options.toggleFree": "मोकळ्या कळा चालू/बंद करा"
+}

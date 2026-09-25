@@ -39,6 +39,14 @@ The automated upstream audit now covers 38 numbered branches from 1.7.10 through
 - Generation 06 — `.json`, 14 keys: 1.20.5, 1.20.6, 1.21
 - Generation 07 — `.json`, 12 keys: 1.21.1 through 26.3
 
+## Upcoming Marathi-inclusive 1.0.1 (not yet published)
+
+The existing 1.0.1 baseline has been extended with a complete **Marathi (`mr_in`) Controlling translation** (12 keys). The 126 previously included languages and all original loader classes remain unchanged. The new JAR is prepared in [release-candidates/1.0.1](release-candidates/1.0.1/), alongside a **separate Minecraft 26.3 Marathi resource pack** based directly on the user's Beyond & More 26.1.2 Marathi translations.
+
+The Minecraft resource pack includes all **8,559 official Minecraft 26.3 English keys**: 7,790 unchanged-key translations reused directly from Beyond & More, 45 reuses of identical English meanings, 2 curated fixes and 722 machine-assisted translations for new/changed English keys. Native-speaker proofreading and real game tests remain outstanding; these files are **not an already-published Marathi release**.
+
+See [installation, provenance, build and verification details](docs/MARATHI_1_0_1.md). Only the companion ZIP targets Minecraft 26.3 specifically; the Controlling JAR retains its pre-existing 1.21.9–26.3 declared range.
+
 ## Compatibility model
 
 This project is versioned by localization generation rather than by every individual Controlling release. Minecraft versions that share the same upstream localization schema can reuse the same translation source.

@@ -21,6 +21,12 @@ jobs:
       - name: Validate repository
         run: python scripts/validate.py
 
+      - name: Reconstruct pinned Marathi 1.0.1 candidates
+        run: python scripts/build_marathi_1_0_1.py
+
+      - name: Validate Marathi 26.3 pack and original 1.0.1 metadata
+        run: python scripts/validate_marathi_1_0_1.py
+
       - name: Audit Controlling upstream
         run: python scripts/audit_upstream.py
 

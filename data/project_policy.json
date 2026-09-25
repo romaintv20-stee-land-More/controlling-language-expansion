@@ -14,5 +14,16 @@
     "released_on": "2026-09-17",
     "version": "1.0.1",
     "supported_minecraft_max": "26.3"
+  },
+  "marathi_1_0_1_candidate": {
+    "publication_status": "not_published",
+    "minecraft_resourcepack_version": "26.3",
+    "locale": "mr_in",
+    "controlling_translation_keys": 12,
+    "minecraft_translation_keys": 8559,
+    "machine_assisted_minecraft_keys": 722,
+    "manual_language_review_required": true,
+    "in_game_validation_required": true,
+    "artifacts_dir": "release-candidates/1.0.1"
   }
 }
